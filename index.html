@@ -1,0 +1,5235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/shCore.css" rel="stylesheet" type="text/css" />
+    <link href="css/shThemeDefault.css" rel="stylesheet" type="text/css" />
+    <title>Codeblocks for C++</title>
+    <link rel = "icon" href = 
+"codeblocks.png" 
+        type = "image/x-icon">
+</head>
+<style>
+    body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("./c.jpeg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+</style>
+<body class="bg">
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <h1>TUT</h1>
+    <h2>Fibonacci search</h2>
+    <pre>
+        <code>
+            #include &lt;bits/stdc++.h&gt;
+            using namespace std;
+            
+            
+            int min(int x, int y) { return (x &lt;= y) ? x : y; }
+            
+            int fibMonaccianSearch(int arr[], int x, int n)
+            {
+                int fibMMm2 = 0; // (m-2)'th Fibonacci No.
+                int fibMMm1 = 1; // (m-1)'th Fibonacci No.
+                int fibM = fibMMm2 + fibMMm1;
+            
+                
+                while (fibM &lt; n) {
+                    fibMMm2 = fibMMm1;
+                    fibMMm1 = fibM;
+                    fibM = fibMMm2 + fibMMm1;
+                }
+            
+                int offset = -1;
+            
+                
+                while (fibM &gt; 1) {
+                    int i = min(offset + fibMMm2, n - 1);
+            
+                    if (arr[i] &lt; x) {
+                        fibM = fibMMm1;
+                        fibMMm1 = fibMMm2;
+                        fibMMm2 = fibM - fibMMm1;
+                        offset = i;
+                    }
+            
+                    
+                    else if (arr[i] &gt; x) {
+                        fibM = fibMMm2;
+                        fibMMm1 = fibMMm1 - fibMMm2;
+                        fibMMm2 = fibM - fibMMm1;
+                    }
+            
+                    
+                    else
+                        return i;
+                }
+            
+                if (fibMMm1 && arr[offset + 1] == x)
+                    return offset + 1;
+            
+                return -1;
+            }
+            
+            int Fibonacci()
+            {
+                int n;
+                cout &lt;&lt; " Enter the number of elements in array :\n";
+                cin&gt;&gt;n;
+                int arr[n];
+                cout &lt;&lt; " Enter the elements in the array :\n";
+                for (int i = 0; i &lt; n; i++)
+                {
+                    cin&gt;&gt;arr[i];
+                }
+                sort(arr, arr + n);
+                int x;
+                cout &lt;&lt; " Enter the number to be searched :\n";
+                cin&gt;&gt;x;
+                int ind = fibMonaccianSearch(arr, x, n);
+            if(ind&gt;=0)
+                cout &lt;&lt; "The number is Present in the array \n";
+            else
+                cout &lt;&lt; x &lt;&lt; "The number is not present in the array \n";
+                return 0;
+            }
+            
+            int main()
+            {
+                
+            int choice;
+            
+                do{
+            
+                cout &lt;&lt; "\n Menu \n 1.Fibonacci search \n 2.Exit \n";
+                cin &gt;&gt; choice;
+            
+                switch (choice)
+                {
+                case 1:
+                    Fibonacci();
+                    break;
+                case 2:
+                    cout &lt;&lt; "\n Thank you for using the program  \n";
+                    exit(0);
+                    break;        
+            
+                default:
+                    cout &lt;&lt; "\n Invalid Choice \n";
+                    break;
+                }
+                }while(choice != 2);
+            
+                return 0;
+            }
+            
+    </code>
+    </pre>
+    <br>
+    <br>
+    <hr>
+    <h2>Infix to Prefix</h2>
+    <pre class='brush: cpp'>
+        <code>
+            #include &lt;iostream&gt;
+#include &lt;stack&gt;
+#include &lt;algorithm&gt;
+
+using namespace std;
+
+bool isOperator(char c)
+{
+    if (c == '+' || c == '-' || c == '*' || c == '/' || c == '^') {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+
+int precedence(char c)
+{
+    if (c == '^')
+        return 3;
+    else if (c == '*' || c == '/')
+        return 2;
+    else if (c == '+' || c == '-')
+        return 1;
+    else
+        return -1;
+}
+
+string InfixToPrefix(stack&lt;char&gt; s, string infix)
+{
+    string prefix;
+    reverse(infix.begin(), infix.end());
+
+    for (int i = 0; i &lt; infix.length(); i++) {
+        if (infix[i] == '(') {
+            infix[i] = ')';
+        }
+        else if (infix[i] == ')') {
+            infix[i] = '(';
+        }
+    }
+    for (int i = 0; i &lt; infix.length(); i++) {
+        if ((infix[i] &gt;= 'a' && infix[i] &lt;= 'z') || (infix[i] &gt;= 'A' && infix[i] &lt;= 'Z')) {
+            prefix += infix[i];
+        }
+        else if (infix[i] == '(') {
+            s.push(infix[i]);
+        }
+        else if (infix[i] == ')') {
+            while ((s.top() != '(') && (!s.empty())) {
+                prefix += s.top();
+                s.pop();
+            }
+
+            if (s.top() == '(') {
+                s.pop();
+            }
+        }
+        else if (isOperator(infix[i])) {
+            if (s.empty()) {
+                s.push(infix[i]);
+            }
+            else {
+                if (precedence(infix[i]) &gt; precedence(s.top())) {
+                    s.push(infix[i]);
+                }
+                else if ((precedence(infix[i]) == precedence(s.top()))
+                    && (infix[i] == '^')) {
+                    while ((precedence(infix[i]) == precedence(s.top()))
+                        && (infix[i] == '^')) {
+                        prefix += s.top();
+                        s.pop();
+                    }
+                    s.push(infix[i]);
+                }
+                else if (precedence(infix[i]) == precedence(s.top())) {
+                    s.push(infix[i]);
+                }
+                else {
+                    while ((!s.empty()) && (precedence(infix[i]) &lt; precedence(s.top()))) {
+                        prefix += s.top();
+                        s.pop();
+                    }
+                    s.push(infix[i]);
+                }
+            }
+        }
+    }
+
+    while (!s.empty()) {
+        prefix += s.top();
+        s.pop();
+    }
+
+    reverse(prefix.begin(), prefix.end());
+    return prefix;
+}
+int infixpre()
+{
+string infix, prefix;
+    cout &lt;&lt; "Enter a Infix Expression :" &lt;&lt; endl;
+    cin &gt;&gt; infix;
+    stack&lt;char&gt; stack;
+    cout &lt;&lt; "INFIX EXPRESSION: " &lt;&lt; infix &lt;&lt; endl;
+    prefix = InfixToPrefix(stack, infix);
+    cout &lt;&lt; endl
+         &lt;&lt; "PREFIX EXPRESSION: " &lt;&lt; prefix;
+return 0;
+}
+int main()
+{
+int choice;
+
+    do{
+
+    cout &lt;&lt; "\n Menu \n 1.Infix to Prefix \n 2.Exit \n";
+    cin &gt;&gt; choice;
+
+    switch (choice)
+    {
+    case 1:
+        infixpre();
+        break;
+    case 2:
+        cout &lt;&lt; "\n Thank you for using the program  \n";
+        break;        
+
+    default:
+        cout &lt;&lt; "\n Invalid Choice \n";
+        break;
+    }
+    }while(choice != 2);
+
+    
+    return 0;
+}
+        </code>  
+            
+    </pre><hr>
+    <h2>Doubly Linked List Implementation</h2>
+    <pre class='brush: cpp'>
+        <code>
+            #include&lt;stdio.h&gt;
+#include&lt;stdlib.h&gt;
+struct node
+{
+    struct node *prev;
+    struct node *next;
+    int data;
+};
+struct node *head;
+void insertion_beginning();
+void insertion_last();
+void insertion_specified();
+void deletion_beginning();
+void deletion_last();
+void deletion_specified();
+void display();
+void search();
+int dll();
+
+int main ()
+{
+    int choice;
+
+    do{
+
+    printf("\n Menu \n 1.Doubly linked list \n 2.Exit \n");
+    scanf("\n%d",&choice);
+    
+
+    switch (choice)
+    {
+    case 1:
+        dll();
+        break;
+    case 2:
+        
+        printf("\n Thank you for using the program \n");
+        break;        
+
+    default:
+        printf("\n Invalid choice \n");
+        break;
+    }
+    }while(choice != 2);
+    return 0;
+}
+
+int dll()
+{
+int choice=0;
+    while(choice != 9)
+    {
+        printf("\nChoose one option from the following list\n");
+        printf("\nEnter 1 to insert in the beginning");
+        printf("\nEnter 2 to insert at the last");
+        printf("\nEnter 3 to insert at any random location");
+        printf("\nEnter 4 to delete from the beginning");
+        printf("\nEnter 5 to delete from the last");
+        printf("\nEnter 6 to delete a node after some data");
+        printf("\nEnter 7 to search for an element");
+        printf("\nEnter 8 to display the elements");
+        printf("\nEnter 9 to exit");
+        printf("\nEnter your choice:\n");
+        scanf("\n%d",&choice);
+        switch(choice)
+        {
+            case 1:
+            insertion_beginning();
+            break;
+            case 2:
+            insertion_last();
+            break;
+            case 3:
+            insertion_specified();
+            break;
+            case 4:
+            deletion_beginning();
+            break;
+            case 5:
+            deletion_last();
+            break;
+            case 6:
+            deletion_specified();
+            break;
+            case 7:
+            search();
+            break;
+            case 8:
+            display();
+            break;
+            case 9:
+            exit(0);
+            break;
+            default:
+            printf("Please enter valid choice..");
+        }
+    }
+return 0;
+}
+
+void insertion_beginning()
+{
+   struct node *ptr;
+   int item;
+   ptr = (struct node *)malloc(sizeof(struct node));
+   if(ptr == NULL)
+   {
+       printf("\nOVERFLOW");
+   }
+   else
+   {
+    printf("\nEnter Item value");
+    scanf("%d",&item);
+
+   if(head==NULL)
+   {
+       ptr-&gt;next = NULL;
+       ptr-&gt;prev=NULL;
+       ptr-&gt;data=item;
+       head=ptr;
+   }
+   else
+   {
+       ptr-&gt;data=item;
+       ptr-&gt;prev=NULL;
+       ptr-&gt;next = head;
+       head-&gt;prev=ptr;
+       head=ptr;
+   }
+   printf("\nNode inserted\n");
+}
+
+}
+void insertion_last()
+{
+   struct node *ptr,*temp;
+   int item;
+   ptr = (struct node *) malloc(sizeof(struct node));
+   if(ptr == NULL)
+   {
+       printf("\nOVERFLOW");
+   }
+   else
+   {
+       printf("\nEnter value");
+       scanf("%d",&item);
+        ptr-&gt;data=item;
+       if(head == NULL)
+       {
+           ptr-&gt;next = NULL;
+           ptr-&gt;prev = NULL;
+           head = ptr;
+       }
+       else
+       {
+          temp = head;
+          while(temp-&gt;next!=NULL)
+          {
+              temp = temp-&gt;next;
+          }
+          temp-&gt;next = ptr;
+          ptr -&gt;prev=temp;
+          ptr-&gt;next = NULL;
+          }
+
+       }
+     printf("\nNode inserted\n");
+    }
+void insertion_specified()
+{
+   struct node *ptr,*temp;
+   int item,loc,i;
+   ptr = (struct node *)malloc(sizeof(struct node));
+   if(ptr == NULL)
+   {
+       printf("\n OVERFLOW");
+   }
+   else
+   {
+       temp=head;
+       printf("Enter the location");
+       scanf("%d",&loc);
+       for(i=0;i&lt;loc;i++)
+       {
+           temp = temp-&gt;next;
+           if(temp == NULL)
+           {
+               printf("\n There are less than %d elements", loc);
+               return;
+           }
+       }
+       printf("Enter value");
+       scanf("%d",&item);
+       ptr-&gt;data = item;
+       ptr-&gt;next = temp-&gt;next;
+       ptr -&gt; prev = temp;
+       temp-&gt;next = ptr;
+       temp-&gt;next-&gt;prev=ptr;
+       printf("\nNode inserted\n");
+   }
+}
+void deletion_beginning()
+{
+    struct node *ptr;
+    if(head == NULL)
+    {
+        printf("\n UNDERFLOW");
+    }
+    else if(head-&gt;next == NULL)
+    {
+        head = NULL;
+        free(head);
+        printf("\nNode deleted\n");
+    }
+    else
+    {
+        ptr = head;
+        head = head -&gt; next;
+        head -&gt; prev = NULL;
+        free(ptr);
+        printf("\nNode deleted\n");
+    }
+
+}
+void deletion_last()
+{
+    struct node *ptr;
+    if(head == NULL)
+    {
+        printf("\n UNDERFLOW");
+    }
+    else if(head-&gt;next == NULL)
+    {
+        head = NULL;
+        free(head);
+        printf("\nNode deleted\n");
+    }
+    else
+    {
+        ptr = head;
+        if(ptr-&gt;next != NULL)
+        {
+            ptr = ptr -&gt; next;
+        }
+        ptr -&gt; prev -&gt; next = NULL;
+        free(ptr);
+        printf("\nNode deleted\n");
+    }
+}
+void deletion_specified()
+{
+    struct node *ptr, *temp;
+    int val;
+    printf("\n Enter the data after which the node is to be deleted : ");
+    scanf("%d", &val);
+    ptr = head;
+    while(ptr -&gt; data != val)
+    ptr = ptr -&gt; next;
+    if(ptr -&gt; next == NULL)
+    {
+        printf("\nCannot be deleted\n");
+    }
+    else if(ptr -&gt; next -&gt; next == NULL)
+    {
+        ptr -&gt;next = NULL;
+    }
+    else
+    {
+        temp = ptr -&gt; next;
+        ptr -&gt; next = temp -&gt; next;
+        temp -&gt; next -&gt; prev = ptr;
+        free(temp);
+        printf("\nNode deleted\n");
+    }
+}
+void display()
+{
+    struct node *ptr;
+    printf("\nPrinting values\n");
+    ptr = head;
+    while(ptr != NULL)
+    {
+        printf("%d\n",ptr-&gt;data);
+        ptr=ptr-&gt;next;
+    }
+}
+void search()
+{
+    struct node *ptr;
+    int item,i=0,flag;
+    ptr = head;
+    if(ptr == NULL)
+    {
+        printf("\nEmpty List\n");
+    }
+    else
+    {
+        printf("\nEnter item which you want to search?\n");
+        scanf("%d",&item);
+        while (ptr!=NULL)
+        {
+            if(ptr-&gt;data == item)
+            {
+                printf("\nItem found at location %d ",i+1);
+                flag=0;
+                break;
+            }
+            else
+            {
+                flag=1;
+            }
+            i++;
+            ptr = ptr -&gt; next;
+        }
+        if(flag==1)
+        {
+            printf("\nItem not found\n");
+        }
+    }
+
+}
+
+        </code>   
+            
+    </pre><hr>
+    <h2>Tree functions- Find height, count nodes, mirror image</h2>
+    <pre class='brush: cpp'>
+        <code>
+            #include &lt;bits/stdc++.h&gt;
+#define SPACE 10
+using namespace std;
+
+
+class TreeNode
+{
+public:
+    int value;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode()
+    {
+        value = 0;
+        left = NULL;
+        right = NULL;
+    }
+    TreeNode(int v)
+    {
+        value = v;
+        left = NULL;
+        right = NULL;
+    }
+};
+class BST
+{
+public:
+    TreeNode *root;
+    BST()
+    {
+        root = NULL;
+    }
+    bool isTreeEmpty()
+    {
+        if (root == NULL)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+    void insertNode(TreeNode *new_node)
+    {
+        if (root == NULL)
+        {
+            root = new_node;
+            cout &lt;&lt; "Value Inserted as root node!" &lt;&lt; '\n';
+        }
+        else
+        {
+            TreeNode *temp = root;
+            while (temp != NULL)
+            {
+                // if (new_node -&gt; value == temp -&gt; value) {
+                // cout &lt;&lt; "Value Already exist," &lt;&lt;
+                // "Insert another value!" &lt;&lt; '\n';
+                // return;
+                // } else
+                if ((new_node-&gt;value &lt; temp-&gt;value) && (temp-&gt;left == NULL))
+                {
+                    temp-&gt;left = new_node;
+                    cout &lt;&lt; "Value Inserted to the left!" &lt;&lt; '\n';
+                    break;
+                }
+                else if (new_node-&gt;value &lt; temp-&gt;value)
+                {
+                    temp = temp-&gt;left;
+                }
+                else if ((new_node-&gt;value &gt; temp-&gt;value) && (temp-&gt;right == NULL))
+                {
+                    temp-&gt;right = new_node;
+                    cout &lt;&lt; "Value Inserted to the right!" &lt;&lt; '\n';
+                    break;
+                }
+                else
+                {
+                    temp = temp-&gt;right;
+                }
+            }
+        }
+    }
+    TreeNode *insertRecursive(TreeNode *r, TreeNode *new_node)
+    {
+        if (r == NULL)
+        {
+            r = new_node;
+            cout &lt;&lt; "Insertion successful" &lt;&lt; '\n';
+            return r;
+        }
+        if (new_node-&gt;value &lt; r-&gt;value)
+        {
+            r-&gt;left = insertRecursive(r-&gt;left, new_node);
+        }
+        else if (new_node-&gt;value &gt; r-&gt;value)
+        {
+            r-&gt;right = insertRecursive(r-&gt;right, new_node);
+        }
+        else
+        {
+            cout &lt;&lt; "No duplicate values allowed!" &lt;&lt; '\n';
+            return r;
+        }
+        return r;
+    }
+
+    void print2D(TreeNode *r, int space)
+    {
+        if (r == NULL) // Base case 1
+            return;
+        space += SPACE;           // Increase distance between levels 2
+        print2D(r-&gt;right, space); // Process right child first 3
+        cout &lt;&lt; '\n';
+        for (int i = SPACE; i &lt; space; i++) // 5
+            cout &lt;&lt; " ";                    // 5.1
+        cout &lt;&lt; r-&gt;value &lt;&lt; "\n";           // 6
+        print2D(r-&gt;left, space);            // Process left child 6
+    }
+    void printPreorder(TreeNode *r) //(current node, Left, Right)
+    {
+        if (r == NULL)
+            return;
+        /* first print data of node */
+        cout &lt;&lt; r-&gt;value &lt;&lt; " ";
+        /* then recur on left sutree */
+        printPreorder(r-&gt;left);
+        /* now recur on right subtree */
+        printPreorder(r-&gt;right);
+    }
+
+    /* Iterative function for inorder tree
+   traversal */
+    void inOrder(TreeNode *r)
+    {
+        stack&lt;TreeNode *&gt; s;
+        TreeNode *curr = r;
+
+        while (curr != NULL || s.empty() == false)
+        {
+            /* Reach the left most Node of the
+               curr Node */
+            while (curr != NULL)
+            {
+                /* place pointer to a tree node on
+                   the stack before traversing
+                  the node's left subtree */
+                s.push(curr);
+                curr = curr-&gt;left;
+            }
+
+            /* Current must be NULL at this point */
+            curr = s.top();
+            s.pop();
+
+            cout &lt;&lt; curr-&gt;value &lt;&lt; " ";
+
+            /* we have visited the node and its
+               left subtree.  Now, it's right
+               subtree's turn */
+            curr = curr-&gt;right;
+
+        } /* end of while */
+    }
+    void preorderstack(TreeNode *r)
+    {
+        if (r == NULL)
+            return;
+
+        stack&lt;TreeNode *&gt; st;
+
+        // start from root node (set current node to root node)
+        TreeNode *curr = r;
+
+        // run till stack is not empty or current is
+        // not NULL
+        while (!st.empty() || curr != NULL)
+        {
+            // Print left children while exist
+            // and keep pushing right into the
+            // stack.
+            while (curr != NULL)
+            {
+                cout &lt;&lt; curr-&gt;value &lt;&lt; " ";
+
+                if (curr-&gt;right)
+                    st.push(curr-&gt;right);
+
+                curr = curr-&gt;left;
+            }
+
+            // We reach when curr is NULL, so We
+            // take out a right child from stack
+            if (st.empty() == false)
+            {
+                curr = st.top();
+                st.pop();
+            }
+        }
+    }
+    void mirror(TreeNode *node)
+    {
+        if (node == NULL)
+            return;
+        else
+        {
+            TreeNode *temp;
+
+            /* do the subtrees */
+            mirror(node-&gt;left);
+            mirror(node-&gt;right);
+
+            /* swap the pointers in this node */
+            temp = node-&gt;left;
+            node-&gt;left = node-&gt;right;
+            node-&gt;right = temp;
+        }
+    }
+
+
+
+    void postOrderStack(TreeNode *root)
+    {
+        if (root == NULL)
+            return;
+
+        // Create two stacks
+        stack&lt;TreeNode *&gt; s1, s2;
+
+        // push root to first stack
+        s1.push(root);
+        TreeNode *node;
+
+        // Run while first stack is not empty
+        while (!s1.empty())
+        {
+            // Pop an item from s1 and push it to s2
+            node = s1.top();
+            s1.pop();
+            s2.push(node);
+
+            // Push left and right children
+            // of removed item to s1
+            if (node-&gt;left)
+                s1.push(node-&gt;left);
+            if (node-&gt;right)
+                s1.push(node-&gt;right);
+        }
+
+        // Print all elements of second stack
+        while (!s2.empty())
+        {
+            node = s2.top();
+            s2.pop();
+            cout &lt;&lt; node-&gt;value &lt;&lt; " ";
+        }
+    }
+    void printInorder(TreeNode *r) // (Left, current node, Right)
+    {
+        if (r == NULL)
+            return;
+        /* first recur on left child */
+        printInorder(r-&gt;left);
+        /* then print the data of node */
+        cout &lt;&lt; r-&gt;value &lt;&lt; " ";
+        /* now recur on right child */
+        printInorder(r-&gt;right);
+    }
+    void printPostorder(TreeNode *r) //(Left, Right, Root)
+    {
+        if (r == NULL)
+            return;
+        // first recur on left subtree
+        printPostorder(r-&gt;left);
+        // then recur on right subtree
+        printPostorder(r-&gt;right);
+        // now deal with the node
+        cout &lt;&lt; r-&gt;value &lt;&lt; " ";
+    }
+    TreeNode *iterativeSearch(int v)
+    {
+        if (root == NULL)
+        {
+            return root;
+        }
+        else
+        {
+            TreeNode *temp = root;
+            while (temp != NULL)
+            {
+                if (v == temp-&gt;value)
+                {
+                    return temp;
+                }
+                else if (v &lt; temp-&gt;value)
+                {
+                    temp = temp-&gt;left;
+                }
+                else
+                {
+                    temp = temp-&gt;right;
+                }
+            }
+            return NULL;
+        }
+    }
+    TreeNode *recursiveSearch(TreeNode *r, int val)
+    {
+        if (r == NULL || r-&gt;value == val)
+            return r;
+        else if (val &lt; r-&gt;value)
+            return recursiveSearch(r-&gt;left, val);
+        else
+            return recursiveSearch(r-&gt;right, val);
+    }
+    int height(TreeNode *r)
+    {
+        if (r == NULL)
+            return -1;
+        else
+        {
+            /* compute the height of each subtree */
+            int lheight = height(r-&gt;left);
+            int rheight = height(r-&gt;right);
+            /* use the larger one */
+            if (lheight &gt; rheight)
+                return (lheight + 1);
+            else
+                return (rheight + 1);
+        }
+    }
+    /* Print nodes at a given level */
+    void printGivenLevel(TreeNode *r, int level)
+    {
+        if (r == NULL)
+            return;
+        else if (level == 0)
+            cout &lt;&lt; r-&gt;value &lt;&lt; " ";
+        else // level &gt; 0
+        {
+            printGivenLevel(r-&gt;left, level - 1);
+            printGivenLevel(r-&gt;right, level - 1);
+        }
+    }
+    void printLevelOrderBFS(TreeNode *r)
+    {
+        int h = height(r);
+        for (int i = 0; i &lt;= h; i++)
+            printGivenLevel(r, i);
+    }
+    TreeNode *minValueNode(TreeNode *node)
+    {
+        TreeNode *current = node;
+        /* loop down to find the leftmost leaf */
+        while (current-&gt;left != NULL)
+        {
+            current = current-&gt;left;
+        }
+        return current;
+    }
+    TreeNode *deleteNode(TreeNode *r, int v)
+    {
+        // base case
+        if (r == NULL)
+        {
+            return NULL;
+        }
+        // If the key to be deleted is smaller than the root's key,
+        // then it lies in left subtree
+        else if (v &lt; r-&gt;value)
+        {
+            r-&gt;left = deleteNode(r-&gt;left, v);
+        }
+        // If the key to be deleted is greater than the root's key,
+        // then it lies in right subtree
+        else if (v &gt; r-&gt;value)
+        {
+            r-&gt;right = deleteNode(r-&gt;right, v);
+        }
+        // if key is same as root's key, then This is the node to be deleted
+        else
+        {
+            // node with only one child or no child
+            if (r-&gt;left == NULL)
+            {
+                TreeNode *temp = r-&gt;right;
+                delete r;
+                return temp;
+            }
+            else if (r-&gt;right == NULL)
+            {
+                TreeNode *temp = r-&gt;left;
+                delete r;
+                return temp;
+            }
+            else
+            {
+                // node with two children: Get the inorder successor (smallest
+                // in the right subtree)
+                TreeNode *temp = minValueNode(r-&gt;right);
+                // Copy the inorder successor's content to this node
+                r-&gt;value = temp-&gt;value;
+                // Delete the inorder successor
+                r-&gt;right = deleteNode(r-&gt;right, temp-&gt;value);
+                // deleteNode(r-&gt;right, temp-&gt;value);
+            }
+        }
+        return r;
+    }
+};
+
+
+
+int main()
+{
+    BST obj;
+    int option, val, nodesno;
+    do
+    {
+        cout &lt;&lt; "What operation do you want to perform? " &lt;&lt; '\n'
+             &lt;&lt; "Select Option number accordingly." &lt;&lt; '\n';
+        cout &lt;&lt; "1. Insert Node" &lt;&lt; '\n';
+        cout &lt;&lt; "2. Search Node" &lt;&lt; '\n';
+        cout &lt;&lt; "3. Delete Node" &lt;&lt; '\n';
+        cout &lt;&lt; "4. Traversal BST values through Recursion" &lt;&lt; '\n';
+        cout &lt;&lt; "5. Print Height of the Tree" &lt;&lt; '\n';
+        cout &lt;&lt; "6. Print Nodes of the tree" &lt;&lt; '\n';
+        cout &lt;&lt; "7. Mirror of the tree" &lt;&lt; '\n';
+        cout &lt;&lt; "8. Clear Screen" &lt;&lt; '\n';
+        cout &lt;&lt; "0. Exit Program" &lt;&lt; '\n';
+        cin &gt;&gt; option;
+        // Node n1;
+        TreeNode *new_node = new TreeNode();
+        switch (option)
+        {
+        case 0:
+            break;
+        case 1:
+            cout &lt;&lt; "INSERT" &lt;&lt; '\n';
+            cout &lt;&lt; "Enter VALUE of TREE NODE to INSERT in BST: ";
+            cin &gt;&gt; val;
+            new_node-&gt;value = val;
+            // obj.root= obj.insertRecursive(obj.root,new_node);
+            obj.insertNode(new_node);
+            cout &lt;&lt; '\n';
+            break;
+        case 2:
+            cout &lt;&lt; "SEARCH" &lt;&lt; '\n';
+            cout &lt;&lt; "Enter VALUE of TREE NODE to SEARCH in BST: ";
+            cin &gt;&gt; val;
+            // new_node = obj.iterativeSearch(val);
+            new_node = obj.recursiveSearch(obj.root, val);
+            if (new_node != NULL)
+            {
+                cout &lt;&lt; "Value found" &lt;&lt; '\n';
+            }
+            else
+            {
+                cout &lt;&lt; "Value NOT found" &lt;&lt; '\n';
+            }
+            break;
+        case 3:
+            cout &lt;&lt; "DELETE" &lt;&lt; '\n';
+            cout &lt;&lt; "Enter VALUE of TREE NODE to DELETE in BST: ";
+            cin &gt;&gt; val;
+            new_node = obj.iterativeSearch(val);
+            if (new_node != NULL)
+            {
+                obj.deleteNode(obj.root, val);
+                cout &lt;&lt; "Value Deleted" &lt;&lt; '\n';
+            }
+            else
+            {
+                cout &lt;&lt; "Value NOT found" &lt;&lt; '\n';
+            }
+            break;
+        case 4:
+            cout &lt;&lt; "2D PRINT: " &lt;&lt; '\n';
+            obj.print2D(obj.root, 5);
+            cout &lt;&lt; '\n';
+            cout &lt;&lt; "Print Level Order BFS: \n";
+            obj.printLevelOrderBFS(obj.root);
+            cout &lt;&lt; '\n';
+            cout &lt;&lt; "PRE-ORDER: ";
+            obj.printPreorder(obj.root);
+            cout &lt;&lt; '\n';
+            cout &lt;&lt; "IN-ORDER: ";
+            obj.printInorder(obj.root);
+            cout &lt;&lt; '\n';
+            cout &lt;&lt; "POST-ORDER: ";
+            obj.printPostorder(obj.root);
+            cout &lt;&lt; '\n';
+            break;
+        case 5:
+            cout &lt;&lt; "TREE HEIGHT" &lt;&lt; '\n';
+            cout &lt;&lt; "Height : " &lt;&lt; obj.height(obj.root) &lt;&lt; '\n';
+            break;
+        case 6:
+            nodesno = (pow(2, obj.height(obj.root)));
+            nodesno--;
+            cout &lt;&lt; "No of Nodes : " &lt;&lt; nodesno &lt;&lt; '\n';
+            cout &lt;&lt; '\n';
+            cout &lt;&lt; '\n';
+            break;
+        case 7:
+
+            cout &lt;&lt; '\n';
+            cout &lt;&lt; '\n';
+            cout &lt;&lt; '\n';
+
+            /* Print inorder traversal of the input tree */
+            cout &lt;&lt; "Inorder traversal of the constructed"
+                 &lt;&lt; " tree is" &lt;&lt; endl;
+            obj.printInorder(obj.root);
+
+            /* Convert tree to its mirror */
+            obj.mirror(obj.root);
+
+            /* Print inorder traversal of the mirror tree */
+            cout &lt;&lt; "\nInorder traversal of the mirror tree"
+                 &lt;&lt; " is \n";
+            obj.printInorder(obj.root);
+            cout &lt;&lt; '\n';
+            cout &lt;&lt; '\n';
+            cout &lt;&lt; '\n';
+
+            break;
+        case 8:
+            system("cls");
+            break;
+        default:
+            cout &lt;&lt; "Enter Proper Option number " &lt;&lt; '\n';
+        }
+    } while (option != 0);
+    return 0;
+}
+
+        </code>
+        
+        </pre><hr>
+    <h2>Graph-Prim’s, Kruskal</h2>
+    <pre class='brush: cpp'>
+       <code>
+        #include &lt;bits/stdc++.h&gt;
+        using namespace std;
+        
+        // Number of vertices in the graph
+        const int V = 6;
+        
+        // Function to find the vertex with minimum key value
+        int min_Key(int key[], bool visited[])
+        {
+            int min = 999, min_index; // 999 represents an Infinite value
+        
+            for (int v = 0; v &lt; V; v++)
+            {
+                if (visited[v] == false && key[v] &lt; min)
+                {
+                    // vertex should not be visited
+                    min = key[v];
+                    min_index = v;
+                }
+            }
+            return min_index;
+        }
+        
+        // Function to print the final MST stored in parent[]
+        int print_MST(int parent[], int cost[V][V])
+        {
+            int minCost = 0;
+            cout &lt;&lt; "Edge \tWeight\n";
+            for (int i = 1; i &lt; V; i++)
+            {
+                cout &lt;&lt; parent[i] &lt;&lt; " - " &lt;&lt; i &lt;&lt; " \t" &lt;&lt; cost[i][parent[i]] &lt;&lt; " \n";
+                minCost += cost[i][parent[i]];
+            }
+            cout &lt;&lt; "Total cost is" &lt;&lt; minCost;
+            return 0;
+        }
+        
+        // Function to find the MST using adjacency cost matrix representation
+        void find_MST(int cost[V][V])
+        {
+            int parent[V], key[V];
+            bool visited[V];
+        
+            // Initialize all the arrays
+            for (int i = 0; i &lt; V; i++)
+            {
+                key[i] = 999; // 99 represents an Infinite value
+                visited[i] = false;
+                parent[i] = -1;
+            }
+        
+            key[0] = 0;     // Include first vertex in MST by setting its key vaue to 0.
+            parent[0] = -1; // First node is always root of MST
+        
+            // The MST will have maximum V-1 vertices
+            for (int x = 0; x &lt; V - 1; x++)
+            {
+                // Finding the minimum key vertex from the
+                // set of vertices not yet included in MST
+                int u = min_Key(key, visited);
+        
+                visited[u] = true; // Add the minimum key vertex to the MST
+        
+                // Update key and parent arrays
+                for (int v = 0; v &lt; V; v++)
+                {
+                    // cost[u][v] is non zero only for adjacent vertices of u
+                    // visited[v] is false for vertices not yet included in MST
+                    // key[] gets updated only if cost[u][v] is smaller than key[v]
+                    if (cost[u][v] != 0 && visited[v] == false && cost[u][v] &lt; key[v])
+                    {
+                        parent[v] = u;
+                        key[v] = cost[u][v];
+                    }
+                }
+            }
+        
+            // print the final MST
+            print_MST(parent, cost);
+        }
+        
+        class DSU
+        {
+            int *parent;
+            int *rank;
+        
+        public:
+            DSU(int n)
+            {
+                parent = new int[n];
+                rank = new int[n];
+        
+                for (int i = 0; i &lt; n; i++)
+                {
+                    parent[i] = -1;
+                    rank[i] = 1;
+                }
+            }
+        
+            // Find function
+            int find(int i)
+            {
+                if (parent[i] == -1)
+                    return i;
+        
+                return parent[i] = find(parent[i]);
+            }
+        
+            // Union function
+            void unite(int x, int y)
+            {
+                int s1 = find(x);
+                int s2 = find(y);
+        
+                if (s1 != s2)
+                {
+                    if (rank[s1] &lt; rank[s2])
+                    {
+                        parent[s1] = s2;
+                        rank[s2] += rank[s1];
+                    }
+                    else
+                    {
+                        parent[s2] = s1;
+                        rank[s1] += rank[s2];
+                    }
+                }
+            }
+        };
+        
+        class Graph
+        {
+            vector&lt;vector&lt;int&gt;&gt; edgelist;
+            int V;
+        
+        public:
+            Graph(int V) { this-&gt;V = V; }
+        
+            void addEdge(int x, int y, int w)
+            {
+                edgelist.push_back({w, x, y});
+            }
+        
+            void kruskals_mst()
+            {
+                // 1. Sort all edges
+                sort(edgelist.begin(), edgelist.end());
+        
+                // Initialize the DSU
+                DSU s(V);
+                int ans = 0;
+                cout &lt;&lt; "Following are the edges in the "
+                        "constructed MST"
+                     &lt;&lt; endl;
+                for (auto edge : edgelist)
+                {
+                    int w = edge[0];
+                    int x = edge[1];
+                    int y = edge[2];
+        
+                    // Take this edge in MST if it does
+                    // not forms a cycle
+                    if (s.find(x) != s.find(y))
+                    {
+                        s.unite(x, y);
+                        ans += w;
+                        cout &lt;&lt; x &lt;&lt; " -- " &lt;&lt; y &lt;&lt; " == " &lt;&lt; w
+                             &lt;&lt; endl;
+                    }
+                }
+        
+                cout &lt;&lt; "Minimum Cost Spanning Tree: " &lt;&lt; ans;
+            }
+        };
+        
+        int prims()
+        {
+            int cost[V][V];
+            cout &lt;&lt; "Enter the vertices for a graph with 6 vetices";
+            for (int i = 0; i &lt; V; i++)
+            {
+                for (int j = 0; j &lt; V; j++)
+                {
+                    cin &gt;&gt; cost[i][j];
+                }
+            }
+            find_MST(cost);
+            return 0;
+        }
+        
+        int kruskal()
+        {
+            int choi;
+            cout &lt;&lt; "\n Enter the number of vertices \n";
+            cin &gt;&gt; choi;
+            Graph g(choi);
+            int edge;
+            cout &lt;&lt; "\n Enter the number of Edges \n";
+            cin &gt;&gt; edge;
+        
+            for (int i = 0; i &lt; edge; i++)
+            {
+                int a,b,c;
+                cin&gt;&gt;a&gt;&gt;b&gt;&gt;c;
+                g.addEdge(a, b, c);
+            }
+            
+            
+        
+            // Function call
+            g.kruskals_mst();
+            return 0;
+        }
+        
+        int main()
+        {
+            int choice;
+        
+            do
+            {
+        
+                cout &lt;&lt; "\n Menu \n 1.Prims algorithm \n 2.Krukshal Algorithm \n 3.Exit \n";
+                cin &gt;&gt; choice;
+        
+                switch (choice)
+                {
+                case 1:
+                    prims();
+                    break;
+                case 2:
+                    kruskal();
+                    break;
+                case 3:
+                    cout &lt;&lt; "\n Thank you for using the Program \n";
+                    break;
+        
+                default:
+                    cout &lt;&lt; "\n Invalid Choice \n";
+                    break;
+                }
+            } while (choice != 3);
+        
+            return 0;
+        }
+       </code>
+
+    </pre><hr>
+    <h2>Hashing Linear Probing</h2>
+    <pre class='brush: cpp'>
+        <code>
+            #include &lt;iostream&gt;
+            #include &lt;cstdio&gt;
+            #include &lt;cstdlib&gt;
+            using namespace std;
+            const int TABLE_SIZE = 10;
+             
+            /*
+             * HashNode Class Declaration
+             */
+            class HashNode
+            {
+                public:
+                    int key;
+                    int value;
+                    HashNode(int key, int value)
+                    {
+                        this-&gt;key = key;
+                        this-&gt;value = value;
+                    }
+            };
+             
+            /*
+             * DeletedNode Class Declaration
+             */
+            class DeletedNode:public HashNode
+            {
+                private:
+                    static DeletedNode *entry;
+                    DeletedNode():HashNode(-1, -1)
+                    {}
+                public:
+                    static DeletedNode *getNode()
+                    {
+                        if (entry == NULL)
+                            entry = new DeletedNode();
+                        return entry;
+                    }
+            };
+            DeletedNode *DeletedNode::entry = NULL;
+            /*
+             * HashMap Class Declaration
+             */
+            class HashMap
+            {
+                private:
+                    HashNode **htable;
+                public:
+                    HashMap()
+                    {
+                        htable = new HashNode* [TABLE_SIZE];
+                        for (int i = 0; i &lt; TABLE_SIZE; i++)
+                        {
+                            htable[i] = NULL;
+                        }
+                    }
+                    //  Destructors are usually used to deallocate memory and do other cleanup for a class object and its class members when the object is destroyed. A destructor is called for a class object when that object passes out of scope or is explicitly deleted.
+                    ~HashMap()
+                    {
+                        for (int i = 0; i &lt; TABLE_SIZE; i++)
+                        {
+                            if (htable[i] != NULL && htable[i] != DeletedNode::getNode())
+                                delete htable[i];
+                        }
+                        delete[] htable;
+                    }
+                    /*
+                     * Hash Function
+                     */
+                    int HashFunc(int key)
+                    {
+                        return key % TABLE_SIZE;
+                    }
+                    /*
+                     * Insert Element at a key
+                     */
+                    void Insert(int key, int value)
+                    {
+                        int hash_val = HashFunc(key);
+                        int init = -1;
+                        int deletedindex = -1;
+                        while (hash_val != init && (htable[hash_val]
+                                        == DeletedNode::getNode() || htable[hash_val]
+                                        != NULL && htable[hash_val]-&gt;key != key))
+                        {
+                            if (init == -1)
+                                init = hash_val;
+                            if (htable[hash_val] == DeletedNode::getNode())
+                                deletedindex = hash_val;
+                            hash_val = HashFunc(hash_val + 1);
+                        }
+                        if (htable[hash_val] == NULL || hash_val == init)
+                        {
+                            if(deletedindex != -1)
+                                htable[deletedindex] = new HashNode(key, value);
+                            else
+                                htable[hash_val] = new HashNode(key, value);
+                        }
+                        if(init != hash_val)
+                        {
+                            if (htable[hash_val] != DeletedNode::getNode())
+                            {
+                                if (htable[hash_val] != NULL)
+                                {
+                                    if (htable[hash_val]-&gt;key == key)
+                                        htable[hash_val]-&gt;value = value;
+                                }
+                            }
+                            else
+                                htable[hash_val] = new HashNode(key, value);
+                        }
+                    }
+                    /*
+                     * Search Element at a key
+                     */
+                    int Search(int key)
+                    {
+                        int hash_val = HashFunc(key);
+                        int init = -1;
+                        while (hash_val != init && (htable[hash_val]
+                                        == DeletedNode::getNode() || htable[hash_val]
+                                        != NULL && htable[hash_val]-&gt;key != key))
+                        {
+                            if (init == -1)
+                                init = hash_val;
+                            hash_val = HashFunc(hash_val + 1);
+                        }
+                        if (htable[hash_val] == NULL || hash_val == init)
+                            return -1;
+                        else
+                            return htable[hash_val]-&gt;value;
+                    }
+                    /*
+                     * Remove Element at a key
+                     */
+                    void Remove(int key)
+                    {
+                        int hash_val = HashFunc(key);
+                        int init = -1;
+                        while (hash_val != init && (htable[hash_val]
+                                        == DeletedNode::getNode() || htable[hash_val]
+                                        != NULL && htable[hash_val]-&gt;key != key))
+                        {
+                            if (init == -1)
+                                init = hash_val;
+                            hash_val = HashFunc(hash_val + 1);
+                        }
+                        if (hash_val != init && htable[hash_val] != NULL)
+                        {
+                            delete htable[hash_val];
+                            htable[hash_val] = DeletedNode::getNode();
+                        }
+                    }
+            };
+             
+            /*
+             * Main Contains Menu
+             */
+            int main()
+            {
+                HashMap hash;
+                int key, value;
+                int choice;
+                while(1)
+                {
+                    cout&lt;&lt;"\n----------------------"&lt;&lt;endl;
+                    cout&lt;&lt;"Operations on Hash Table"&lt;&lt;endl;
+                    cout&lt;&lt;"\n----------------------"&lt;&lt;endl;
+                    cout&lt;&lt;"1.Insert element into the table"&lt;&lt;endl;
+                    cout&lt;&lt;"2.Search element from the key"&lt;&lt;endl;
+                    cout&lt;&lt;"3.Delete element at a key"&lt;&lt;endl;
+                    cout&lt;&lt;"4.Exit"&lt;&lt;endl;
+                    cout&lt;&lt;"Enter your choice: ";
+                    cin&gt;&gt;choice;
+                    switch(choice)
+                    {
+                    case 1:
+                        cout&lt;&lt;"Enter element to be inserted: ";
+                        cin&gt;&gt;value;
+                        cout&lt;&lt;"Enter key at which element to be inserted: ";
+                        cin&gt;&gt;key;
+                        hash.Insert(key, value);
+                        break;
+                    case 2:
+                        cout&lt;&lt;"Enter key of the element to be searched: ";
+                        cin&gt;&gt;key;
+                        if(hash.Search(key) == -1)
+                        {
+                            cout&lt;&lt;"No element found at key "&lt;&lt;key&lt;&lt;endl;
+                            continue;
+                        }
+                        else
+                        {
+                            cout&lt;&lt;"Element at key "&lt;&lt;key&lt;&lt;" : ";
+                            cout&lt;&lt;hash.Search(key)&lt;&lt;endl;
+                        }
+                        break;
+                    case 3:
+                        cout&lt;&lt;"Enter key of the element to be deleted: ";
+                        cin&gt;&gt;key;
+                        hash.Remove(key);
+                        break;
+                    case 4:
+                        exit(1);
+                    default:
+                       cout&lt;&lt;"\nEnter correct option\n";
+                   }
+                }
+                return 0;
+            }
+          
+        </code>  
+            
+    </pre><hr>
+    <h1>LAB</h1>
+    <h2>Sorting and Searching</h2>
+    <pre class='brush: cpp'>
+       <code>
+        #include &lt;iostream&gt;
+        using namespace std;
+        
+        void displayarray(int array[],int end){
+        for (int i=0;i&lt;=end;i++){
+            cout&lt;&lt;array[i]&lt;&lt;"\t";
+            }
+            
+           cout&lt;&lt;"\n";
+        }
+        void merge(int array[], int const left, int const mid,
+                   int const right)
+        {
+            auto const subArrayOne = mid - left + 1;
+            auto const subArrayTwo = right - mid;
+         
+            // Create temp arrays
+            auto *leftArray = new int[subArrayOne],
+                 *rightArray = new int[subArrayTwo];
+         
+            // Copy data to temp arrays leftArray[] and rightArray[]
+            for (auto i = 0; i &lt; subArrayOne; i++)
+                leftArray[i] = array[left + i];
+            for (auto j = 0; j &lt; subArrayTwo; j++)
+                rightArray[j] = array[mid + 1 + j];
+         
+            auto indexOfSubArrayOne
+                = 0, // Initial index of first sub-array
+                indexOfSubArrayTwo
+                = 0; // Initial index of second sub-array
+            int indexOfMergedArray
+                = left; // Initial index of merged array
+         
+            // Merge the temp arrays back into array[left..right]
+            while (indexOfSubArrayOne &lt; subArrayOne
+                   && indexOfSubArrayTwo &lt; subArrayTwo) {
+                if (leftArray[indexOfSubArrayOne]
+                    &lt;= rightArray[indexOfSubArrayTwo]) {
+                    array[indexOfMergedArray]
+                        = leftArray[indexOfSubArrayOne];
+                    indexOfSubArrayOne++;
+                }
+                else {
+                    array[indexOfMergedArray]
+                        = rightArray[indexOfSubArrayTwo];
+                    indexOfSubArrayTwo++;
+                }
+                indexOfMergedArray++;
+            }
+            // Copy the remaining elements of
+            // left[], if there are any
+            while (indexOfSubArrayOne &lt; subArrayOne) {
+                array[indexOfMergedArray]
+                    = leftArray[indexOfSubArrayOne];
+                indexOfSubArrayOne++;
+                indexOfMergedArray++;
+            }
+            // Copy the remaining elements of
+            // right[], if there are any
+            while (indexOfSubArrayTwo &lt; subArrayTwo) {
+                array[indexOfMergedArray]
+                    = rightArray[indexOfSubArrayTwo];
+                indexOfSubArrayTwo++;
+                indexOfMergedArray++;
+            }
+            delete[] leftArray;
+            delete[] rightArray;
+        }
+        void mergeSort(int array[], int const begin, int const end)
+        {
+            if (begin &gt;= end)
+                return; // Returns recursively
+         
+            auto mid = begin + (end - begin) / 2;
+            mergeSort(array, begin, mid);
+            mergeSort(array, mid + 1, end);
+            merge(array, begin, mid, end);
+            displayarray(array,end);
+        }
+        
+        void binarysearch(int arr1[],int num,int n)
+        {
+        
+            int low,mid,high;
+            low = 0;
+            high = n-1;
+            do{
+            mid = (low+high)/2;
+            if (arr1[mid] == num)
+            {
+              cout&lt;&lt; "number found at pos  "&lt;&lt;mid+1&lt;&lt;"\n";
+            }
+            if (arr1[mid &lt; num])
+            {
+              low = mid+1;
+            }
+            else{
+                high = mid -1;
+            }
+            
+            }while(low&lt;=high);
+        }
+        
+        int insertionsort(int n,int* arr1)
+        {
+            int i, key, j; 
+            for (i = 1; i &lt; n; i++)
+            { 
+                key = arr1[i]; 
+                j = i - 1; 
+          
+                // Move elements of arr[0..i-1],  
+                // that are greater than key, to one 
+                // position ahead of their 
+                // current position
+                while (j &gt;= 0 && arr1[j] &gt; key)
+                { 
+                    arr1[j + 1] = arr1[j]; 
+                    j = j - 1; 
+                } 
+                arr1[j + 1] = key; 
+            } 
+            displayarray(arr1,n - 1);
+            return 0;
+        }
+        int selectionsort(int n,int* arr1)
+        {
+            int i, j, min_idx;
+         
+            // One by one move boundary of
+            // unsorted subarray
+            for (i = 0; i &lt; n-1; i++)
+            {
+               
+                // Find the minimum element in
+                // unsorted array
+                min_idx = i;
+                for (j = i+1; j &lt; n; j++)
+                if (arr1[j] &lt; arr1[min_idx])
+                    min_idx = j;
+         
+                // Swap the found minimum element
+                // with the first element
+                if(min_idx!=i)
+                    {
+                        int temp = arr1[min_idx];
+                        arr1[min_idx] = arr1[i];
+                        arr1[i] = temp;
+                    }
+            }
+               
+            displayarray(arr1, n-1);
+            return 0;
+        }
+        int bubblesort(int n,int* arr1)
+        {
+            int i, j;
+           bool swapped;
+           for (i = 0; i &lt; n-1; i++)
+           {
+             swapped = false;
+             for (j = 0; j &lt; n-i-1; j++)
+             {
+                if (arr1[j] &gt; arr1[j+1])
+                {
+                   swap(arr1[j], arr1[j+1]);
+                   swapped = true;
+                }
+             }
+         
+             // IF no two elements were swapped
+             // by inner loop, then break
+             if (swapped == false)
+                break;
+           }
+           displayarray(arr1,n-1);
+           return 0;
+        }
+        int bubblesortandbinary(int n,int* arr1,int num)
+        {
+            int i, j;
+           bool swapped;
+           for (i = 0; i &lt; n-1; i++)
+           {
+             swapped = false;
+             for (j = 0; j &lt; n-i-1; j++)
+             {
+                if (arr1[j] &gt; arr1[j+1])
+                {
+                   swap(arr1[j], arr1[j+1]);
+                   swapped = true;
+                }
+             }
+         
+             // IF no two elements were swapped
+             // by inner loop, then break
+             if (swapped == false)
+                break;
+           }
+           displayarray(arr1,n-1);
+           binarysearch(arr1,num,n);
+           return 0;
+        }
+        
+        int main()
+        {
+        
+            int choice, n;
+        
+            do{
+                
+            cout &lt;&lt; "Enter the number of elements you want in array ";
+            cin &gt;&gt; n;
+            int arr[n];
+            for (int i = 0; i &lt; n; i++)
+            {
+                cout &lt;&lt; "Enter the element at array position " &lt;&lt; i &lt;&lt; " ";
+                cin &gt;&gt; arr[i];
+            }
+            cout &lt;&lt; "Your Array before sorting is \n";
+        
+            for (int i = 0; i &lt; n; i++)
+            {
+                cout &lt;&lt; arr[i] &lt;&lt; "\t";
+            }
+        
+            cout &lt;&lt; "\n Menu \n 1.Merge sort \n 2.Selection sort \n 3.Bubble sort\n 4.Insertion Sort \n 5.Binary Search\n 6.Exit \n";
+            cin &gt;&gt; choice;
+        
+            switch (choice)
+            {
+            case 1:
+                mergeSort(arr,0,n-1);
+                break;
+            case 2:
+                selectionsort(n,arr);
+                break;
+            case 3:
+                bubblesort(n,arr);
+                break;
+            case 4:
+                insertionsort(n,arr);
+                break;
+         
+            case 5:
+            int search_number;
+                cout&lt;&lt;"Enter the number to be searched : ";
+                cin&gt;&gt;search_number;
+                bubblesortandbinary(n,arr,search_number);
+                break;
+        
+            case 6:
+                cout &lt;&lt; "\n Thank you for Sorting  \n";
+                break;
+        
+            default:
+                cout &lt;&lt; "\n Invalid Choice \n";
+                break;
+            }
+            }while(choice != 6);
+        }
+     
+       </code>   
+    </pre><hr>
+    <h2>1. Balanced Parenthesis
+        2. Infix to postfix
+        3. Solving postfix expression
+        </h2>
+    <pre class='brush: cpp'>
+        <code>#include &lt;iostream&gt;
+            #include &lt;cmath&gt;
+            #include &lt;stack&gt;
+            using namespace std;
+            
+            int Balancedp()
+            {
+                string expr;
+                cout&lt;&lt;"\n Enter the Expression you want to check \n";
+                cin&gt;&gt;expr;
+             
+                // Declare a stack to hold the previous brackets.
+                stack&lt;char&gt; temp;
+                for (int i = 0; i &lt; expr.length(); i++) {
+                    if (temp.empty()) {
+                        // if the stack is empty just push the current
+                        // bracket
+                        temp.push(expr[i]);
+                    }
+                    else if ((temp.top() == '(' && expr[i] == ')')
+                             || (temp.top() == '{' && expr[i] == '}')
+                             || (temp.top() == '[' && expr[i] == ']')) {
+                        // if we found any complete pair of bracket then pop the element
+                        temp.pop();
+                    }
+                    else {
+                        temp.push(expr[i]);
+                    }
+                }
+                if (temp.empty()) {
+                    // if stack is empty return 
+                    cout &lt;&lt; "Balanced Paranthesis";
+                    return 0;
+                }
+                cout &lt;&lt; "Not Balanced Parenthesis";
+                return 0;
+            }
+            int prec(char c)
+            {
+                if (c == '^')
+                    return 3;
+                else if (c == '/' || c == '*')
+                    return 2;
+                else if (c == '+' || c == '-')
+                    return 1;
+                else
+                    return -1;
+            }
+            
+            int infixtopostfix()
+            {
+                string s;
+                cout&lt;&lt;"\n Enter the Expression you want to solve \n";
+                cin&gt;&gt;s;
+                stack&lt;char&gt; st; // For stack operations, we are using built in c++ stack
+                string result;
+             
+                for (int i = 0; i &lt; s.length(); i++) {
+                    char c = s[i];
+             
+                    // If the scanned character is
+                    // an operand, add it to output string.
+                    if ((c &gt;= 'a' && c &lt;= 'z') || (c &gt;= 'A' && c &lt;= 'Z')
+                        || (c &gt;= '0' && c &lt;= '9'))
+                        result += c;
+             
+                    // If the scanned character is an
+                    // ‘(‘, push it to the stack.
+                    else if (c == '(')
+                        st.push('(');
+             
+                    // If the scanned character is an ‘)’,
+                    // pop and to output string from the stack
+                    // until an ‘(‘ is encountered.
+                    else if (c == ')') {
+                        while (st.top() != '(') {
+                            result += st.top();
+                            st.pop();
+                        }
+                        st.pop();
+                    }
+                       else {
+                        while (!st.empty()
+                               && prec(s[i]) &lt;= prec(st.top())) {
+                            if (c == '^' && st.top() != '^')
+                                break;
+                            else {
+                                result += st.top();
+                                st.pop();
+                            }
+                        }
+                        st.push(c);
+                    }
+                }
+             
+                // Pop all the remaining elements from the stack
+                while (!st.empty()) {
+                    result += st.top();
+                    st.pop();
+                }
+             
+                cout &lt;&lt; result &lt;&lt; endl;
+            
+                return 0;
+            }
+            float scanNum(char ch) {
+               int value;
+               value = ch;
+               return float(value-'0');   //return float from character
+            }
+            
+            int isOperator(char ch) {
+               if(ch == '+'|| ch == '-'|| ch == '*'|| ch == '/' || ch == '^')
+                  return 1;    //character is an operator
+               return -1;   //not an operator
+            }
+            
+            int isOperand(char ch) {
+               if(ch &gt;= '0' && ch &lt;= '9')
+                  return 1;    //character is an operand
+               return -1;   //not an operand
+            }
+            float operation(int a, int b, char op) {
+               //Perform operation
+               if(op == '+')
+                  return b+a;
+               else if(op == '-')
+                  return b-a;
+               else if(op == '*')
+                  return b*a;
+               else if(op == '/')
+                  return b/a;
+               else if(op == '^')
+                  return pow(b,a);    //find b^a
+               else
+                  return INT_MIN;    //return negative infinity
+            }
+            
+            float postfixexpression()
+            {
+                 string postfix;
+                cout&lt;&lt;"\n Enter the Expression you want to solve \n";
+                cin&gt;&gt;postfix;
+                int a, b;
+               stack&lt;float&gt; stk;
+               string::iterator it;
+            
+               for(it=postfix.begin(); it!=postfix.end(); it++) {
+                  //read elements and perform postfix evaluation
+                  if(isOperator(*it) != -1) {
+                     a = stk.top();
+                     stk.pop();
+                     b = stk.top();
+                     stk.pop();
+                     stk.push(operation(a, b, *it));
+                  }else if(isOperand(*it) &gt; 0) {
+                     stk.push(scanNum(*it));
+                  }
+               }
+               cout &lt;&lt; "The result is: "&lt;&lt;stk.top()&lt;&lt;"\n";
+               return 0;
+            }
+            
+            int main()
+            {
+            
+                int choice, n;
+            
+                do{
+            
+                cout &lt;&lt; "\n Menu \n 1.Balanced Parenthesis \n 2.Infix to postfix \n 3.Solving postfix expression \n 4.Exit \n\n\n Enter your choice: \t";
+                cin &gt;&gt; choice;
+            
+                switch (choice)
+                {
+                case 1:
+                    Balancedp();
+                    break;
+                case 2:
+                    infixtopostfix();
+                    break;
+                case 3:
+                    postfixexpression();        
+                    break;
+            
+                case 4:
+                    cout &lt;&lt; "\n successful exit \n";
+                    break;
+            
+                default:
+                    cout &lt;&lt; "\n Invalid Choice \n";
+                    break;
+                }
+                }while(choice != 4);
+            }
+         </code>   
+    </pre><hr>
+    <h2>Circular Queue 
+        b. Reverse Stack using Queue
+        </h2>
+    <pre class='brush: cpp'>
+        <code>
+            #include &lt;iostream&gt;
+            #include &lt;cmath&gt;
+            #include &lt;stack&gt;
+            using namespace std;
+            
+            int Balancedp()
+            {
+                string expr;
+                cout&lt;&lt;"\n Enter the Expression you want to check \n";
+                cin&gt;&gt;expr;
+             
+                // Declare a stack to hold the previous brackets.
+                stack&lt;char&gt; temp;
+                for (int i = 0; i &lt; expr.length(); i++) {
+                    if (temp.empty()) {
+                        // if the stack is empty just push the current
+                        // bracket
+                        temp.push(expr[i]);
+                    }
+                    else if ((temp.top() == '(' && expr[i] == ')')
+                             || (temp.top() == '{' && expr[i] == '}')
+                             || (temp.top() == '[' && expr[i] == ']')) {
+                        // if we found any complete pair of bracket then pop the element
+                        temp.pop();
+                    }
+                    else {
+                        temp.push(expr[i]);
+                    }
+                }
+                if (temp.empty()) {
+                    // if stack is empty return 
+                    cout &lt;&lt; "Balanced Paranthesis";
+                    return 0;
+                }
+                cout &lt;&lt; "Not Balanced Parenthesis";
+                return 0;
+            }
+            int prec(char c)
+            {
+                if (c == '^')
+                    return 3;
+                else if (c == '/' || c == '*')
+                    return 2;
+                else if (c == '+' || c == '-')
+                    return 1;
+                else
+                    return -1;
+            }
+            
+            int infixtopostfix()
+            {
+                string s;
+                cout&lt;&lt;"\n Enter the Expression you want to solve \n";
+                cin&gt;&gt;s;
+                stack&lt;char&gt; st; // For stack operations, we are using built in c++ stack
+                string result;
+             
+                for (int i = 0; i &lt; s.length(); i++) {
+                    char c = s[i];
+             
+                    // If the scanned character is
+                    // an operand, add it to output string.
+                    if ((c &gt;= 'a' && c &lt;= 'z') || (c &gt;= 'A' && c &lt;= 'Z')
+                        || (c &gt;= '0' && c &lt;= '9'))
+                        result += c;
+             
+                    // If the scanned character is an
+                    // ‘(‘, push it to the stack.
+                    else if (c == '(')
+                        st.push('(');
+             
+                    // If the scanned character is an ‘)’,
+                    // pop and to output string from the stack
+                    // until an ‘(‘ is encountered.
+                    else if (c == ')') {
+                        while (st.top() != '(') {
+                            result += st.top();
+                            st.pop();
+                        }
+                        st.pop();
+                    }
+                       else {
+                        while (!st.empty()
+                               && prec(s[i]) &lt;= prec(st.top())) {
+                            if (c == '^' && st.top() != '^')
+                                break;
+                            else {
+                                result += st.top();
+                                st.pop();
+                            }
+                        }
+                        st.push(c);
+                    }
+                }
+             
+                // Pop all the remaining elements from the stack
+                while (!st.empty()) {
+                    result += st.top();
+                    st.pop();
+                }
+             
+                cout &lt;&lt; result &lt;&lt; endl;
+            
+                return 0;
+            }
+            float scanNum(char ch) {
+               int value;
+               value = ch;
+               return float(value-'0');   //return float from character
+            }
+            
+            int isOperator(char ch) {
+               if(ch == '+'|| ch == '-'|| ch == '*'|| ch == '/' || ch == '^')
+                  return 1;    //character is an operator
+               return -1;   //not an operator
+            }
+            
+            int isOperand(char ch) {
+               if(ch &gt;= '0' && ch &lt;= '9')
+                  return 1;    //character is an operand
+               return -1;   //not an operand
+            }
+            float operation(int a, int b, char op) {
+               //Perform operation
+               if(op == '+')
+                  return b+a;
+               else if(op == '-')
+                  return b-a;
+               else if(op == '*')
+                  return b*a;
+               else if(op == '/')
+                  return b/a;
+               else if(op == '^')
+                  return pow(b,a);    //find b^a
+               else
+                  return INT_MIN;    //return negative infinity
+            }
+            
+            float postfixexpression()
+            {
+                 string postfix;
+                cout&lt;&lt;"\n Enter the Expression you want to solve \n";
+                cin&gt;&gt;postfix;
+                int a, b;
+               stack&lt;float&gt; stk;
+               string::iterator it;
+            
+               for(it=postfix.begin(); it!=postfix.end(); it++) {
+                  //read elements and perform postfix evaluation
+                  if(isOperator(*it) != -1) {
+                     a = stk.top();
+                     stk.pop();
+                     b = stk.top();
+                     stk.pop();
+                     stk.push(operation(a, b, *it));
+                  }else if(isOperand(*it) &gt; 0) {
+                     stk.push(scanNum(*it));
+                  }
+               }
+               cout &lt;&lt; "The result is: "&lt;&lt;stk.top()&lt;&lt;"\n";
+               return 0;
+            }
+            
+            int main()
+            {
+            
+                int choice, n;
+            
+                do{
+            
+                cout &lt;&lt; "\n Menu \n 1.Balanced Parenthesis \n 2.Infix to postfix \n 3.Solving postfix expression \n 4.Exit \n\n\n Enter your choice: \t";
+                cin &gt;&gt; choice;
+            
+                switch (choice)
+                {
+                case 1:
+                    Balancedp();
+                    break;
+                case 2:
+                    infixtopostfix();
+                    break;
+                case 3:
+                    postfixexpression();        
+                    break;
+            
+                case 4:
+                    cout &lt;&lt; "\n successful exit \n";
+                    break;
+            
+                default:
+                    cout &lt;&lt; "\n Invalid Choice \n";
+                    break;
+                }
+                }while(choice != 4);
+            }
+        
+        </code>    
+    </pre><hr>
+    <h2>Linked List
+        </h2>
+    <pre class='brush: cpp'>
+        <code>
+            #include&lt;stdio.h&gt;
+            #include&lt;stdlib.h&gt;
+            
+            struct node
+            {
+                int data;
+                struct node *next;
+            };
+            struct node *head;
+            
+            void Insertbegin ();
+            void Insertend ();
+            void Insertrandom();
+            void begin_delete();
+            void last_delete();
+            void random_delete();
+            void Print();
+            void search();
+            int main ()
+            {
+                int choice =0;
+                while(choice != 9)
+                {
+                    printf("\n---------------------Menu---------------------\n");
+                    printf("\n1. Insert Element at the beginning of the Linked List");
+                    printf("\n2. Insert Element at end of Linked List");
+                    printf("\n3. Insert Element at any location in Linked List");
+                    printf("\n4. Delete Element from the beginning of Linked List");
+                    printf("\n5. Delete Element at End of Linked List");
+                    printf("\n6. Delete a node from the specified location");
+                    printf("\n7. Search for an Element in the Linked List");
+                    printf("\n8. Display the Elements");
+                    printf("\n9. exit");
+                    printf("\n\n Enter your choice : \t");
+                    scanf("\n%d",&choice);
+                    switch(choice)
+                    {
+                        case 1:
+                        Insertbegin();
+                        break;
+                        case 2:
+                        Insertend();
+                        break;
+                        case 3:
+                        Insertrandom();
+                        break;
+                        case 4:
+                        begin_delete();
+                        break;
+                        case 5:
+                        last_delete();
+                        break;
+                        case 6:
+                        random_delete();
+                        break;
+                        case 7:
+                        search();
+                        break;
+                        case 8:
+                        Print();
+                        break;
+                        case 9:
+                        exit(0);
+                        break;
+                        default:
+                        printf("Please enter valid choice..");
+                    }
+                }
+            }
+            void Insertbegin()
+            {
+                struct node *ptr;
+                int item;
+                ptr = (struct node *) malloc(sizeof(struct node *));
+                if(ptr == NULL)
+                {
+                    printf("\nOVERFLOW");
+                }
+                else
+                {
+                    printf("\nEnter value to be Inserted\n");
+                    scanf("%d",&item);
+                    ptr-&gt;data = item;
+                    ptr-&gt;next = head;
+                    head = ptr;
+                    printf("\nNode inserted \n");
+                }
+            
+            }
+            void Insertend()
+            {
+                struct node *ptr,*temp;
+                int item;
+                ptr = (struct node*)malloc(sizeof(struct node));
+                if(ptr == NULL)
+                {
+                    printf("\nOVERFLOW");
+                }
+                else
+                {
+                    printf("\nEnter value to be Inserted\n");
+                    scanf("%d",&item);
+                    ptr-&gt;data = item;
+                    if(head == NULL)
+                    {
+                        ptr -&gt; next = NULL;
+                        head = ptr;
+                        printf("\nNode inserted \n");
+                    }
+                    else
+                    {
+                        temp = head;
+                        while (temp -&gt; next != NULL)
+                        {
+                            temp = temp -&gt; next;
+                        }
+                        temp-&gt;next = ptr;
+                        ptr-&gt;next = NULL;
+                        printf("\nNode inserted \n");
+            
+                    }
+                }
+            }
+            void Insertrandom()
+            {
+                int i,loc,item;
+                struct node *ptr, *temp;
+                ptr = (struct node *) malloc (sizeof(struct node));
+                if(ptr == NULL)
+                {
+                    printf("\nOVERFLOW");
+                }
+                else
+                {
+                    printf("\nEnter element value");
+                    scanf("%d",&item);
+                    ptr-&gt;data = item;
+                    printf("\nEnter the location after which you want to insert: ");
+                    scanf("\n%d",&loc);
+                    temp=head;
+                    for(i=0;i&lt;loc;i++)
+                    {
+                        temp = temp-&gt;next;
+                        if(temp == NULL)
+                        {
+                            printf("\nCannot be inserted\n");
+                            return;
+                        }
+            
+                    }
+                    ptr -&gt;next = temp -&gt;next;
+                    temp -&gt;next = ptr;
+                    printf("\nNode inserted Successfully");
+                }
+            }
+            void begin_delete()
+            {
+                struct node *ptr;
+                if(head == NULL)
+                {
+                    printf("\nList is empty\n");
+                }
+                else
+                {
+                    ptr = head;
+                    head = ptr-&gt;next;
+                    free(ptr);
+                    printf("\nNode deleted from the beginning Successfully\n");
+                }
+            }
+            void last_delete()
+            {
+                struct node *ptr,*ptr1;
+                if(head == NULL)
+                {
+                    printf("\nList is empty");
+                }
+                else if(head -&gt; next == NULL)
+                {
+                    head = NULL;
+                    free(head);
+                    printf("\nOnly node of the list deleted\n");
+                }
+            
+                else
+                {
+                    ptr = head;
+                    while(ptr-&gt;next != NULL)
+                    {
+                        ptr1 = ptr;
+                        ptr = ptr -&gt;next;
+                    }
+                    ptr1-&gt;next = NULL;
+                    free(ptr);
+                    printf("\nDeleted Node from the last\n");
+                }
+            }
+            void random_delete()
+            {
+                struct node *ptr,*ptr1;
+                int loc,i;
+                printf("\n Enter the location of the node after which you want to perform deletion \n");
+                scanf("%d",&loc);
+                ptr=head;
+                for(i=0;i&lt;loc;i++)
+                {
+                    ptr1 = ptr;
+                    ptr = ptr-&gt;next;
+            
+                    if(ptr == NULL)
+                    {
+                        printf("\nCannot Delete Element\n");
+                        return;
+                    }
+                }
+                ptr1 -&gt;next = ptr -&gt;next;
+                free(ptr);
+                printf("\nDeleted node %d ",loc+1);
+            }
+            void search()
+            {
+                struct node *ptr;
+                int item,i=0,flag;
+                ptr = head;
+                if(ptr == NULL)
+                {
+                    printf("\nEmpty List\n");
+                }
+                else
+                {
+                    printf("\nEnter item which you want to search?\n");
+                    scanf("%d",&item);
+                    int yo=0;
+                    while (ptr!=NULL)
+                    {
+                        if(ptr-&gt;data == item)
+                        {
+                            printf("Item found at location %d ",i+1);
+                            yo = 0;
+                            break;
+                            
+                        }
+                        else
+                        {
+                            yo=1;
+                        }
+                        i++;
+                        ptr = ptr -&gt; next;
+                    }
+                    if(yo==1)
+                    {
+                        printf("Item not found\n");
+                    }
+                }
+            
+            }
+            
+            void Print()
+            {
+                struct node *ptr;
+                ptr = head;
+                if(ptr == NULL)
+                {
+                    printf("Nothing to print");
+                }
+                else
+                {
+                    printf("\nPrinting the values\n");
+                    while (ptr!=NULL)
+                    {
+                        printf("\n%d",ptr-&gt;data);
+                        ptr = ptr -&gt; next;
+                    }
+                }
+            }
+        
+        </code>    
+            
+            
+    </pre><hr>
+    <h2>. Recursive
+        1.	Inorder Tree Traversal
+        2.	Preorder Tree Traversal
+        3.	Postorder Tree Traversal
+        4.	Implementation of various other functions
+        
+        B. Non-Recursive traversal
+        
+        </h2>
+    <pre class='brush: cpp'>
+        <code>
+            #include &lt;bits/stdc++.h&gt;
+#define SPACE 10
+using namespace std;
+class TreeNode
+{
+public:
+    int value;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode()
+    {
+        value = 0;
+        left = NULL;
+        right = NULL;
+    }
+    TreeNode(int v)
+    {
+        value = v;
+        left = NULL;
+        right = NULL;
+    }
+};
+class BST
+{
+public:
+    TreeNode *root;
+    BST()
+    {
+        root = NULL;
+    }
+    bool isTreeEmpty()
+    {
+        if (root == NULL)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+    void insertNode(TreeNode *new_node)
+    {
+        if (root == NULL)
+        {
+            root = new_node;
+            cout &lt;&lt; "Value Inserted as root node!" &lt;&lt; '\n';
+        }
+        else
+        {
+            TreeNode *temp = root;
+            while (temp != NULL)
+            {
+                // if (new_node -&gt; value == temp -&gt; value) {
+                // cout &lt;&lt; "Value Already exist," &lt;&lt;
+                // "Insert another value!" &lt;&lt; '\n';
+                // return;
+                // } else
+                if ((new_node-&gt;value &lt; temp-&gt;value) && (temp-&gt;left == NULL))
+                {
+                    temp-&gt;left = new_node;
+                    cout &lt;&lt; "Value Inserted to the left!" &lt;&lt; '\n';
+                    break;
+                }
+                else if (new_node-&gt;value &lt; temp-&gt;value)
+                {
+                    temp = temp-&gt;left;
+                }
+                else if ((new_node-&gt;value &gt; temp-&gt;value) && (temp-&gt;right == NULL))
+                {
+                    temp-&gt;right = new_node;
+                    cout &lt;&lt; "Value Inserted to the right!" &lt;&lt; '\n';
+                    break;
+                }
+                else
+                {
+                    temp = temp-&gt;right;
+                }
+            }
+        }
+    }
+    TreeNode *insertRecursive(TreeNode *r, TreeNode *new_node)
+    {
+        if (r == NULL)
+        {
+            r = new_node;
+            cout &lt;&lt; "Insertion successful" &lt;&lt; '\n';
+            return r;
+        }
+        if (new_node-&gt;value &lt; r-&gt;value)
+        {
+            r-&gt;left = insertRecursive(r-&gt;left, new_node);
+        }
+        else if (new_node-&gt;value &gt; r-&gt;value)
+        {
+            r-&gt;right = insertRecursive(r-&gt;right, new_node);
+        }
+        else
+        {
+            cout &lt;&lt; "No duplicate values allowed!" &lt;&lt; '\n';
+            return r;
+        }
+        return r;
+    }
+    void print2D(TreeNode *r, int space)
+    {
+        if (r == NULL) // Base case 1
+            return;
+        space += SPACE;           // Increase distance between levels 2
+        print2D(r-&gt;right, space); // Process right child first 3
+        cout &lt;&lt; '\n';
+        for (int i = SPACE; i &lt; space; i++) // 5
+            cout &lt;&lt; " ";                    // 5.1
+        cout &lt;&lt; r-&gt;value &lt;&lt; "\n";           // 6
+        print2D(r-&gt;left, space);            // Process left child 6
+    }
+    void printPreorder(TreeNode *r) //(current node, Left, Right)
+    {
+        if (r == NULL)
+            return;
+        /* first print data of node */
+        cout &lt;&lt; r-&gt;value &lt;&lt; " ";
+        /* then recur on left sutree */
+        printPreorder(r-&gt;left);
+        /* now recur on right subtree */
+        printPreorder(r-&gt;right);
+    }
+
+    /* Iterative function for inorder tree
+   traversal */
+    void inOrder(TreeNode *r)
+    {
+        stack&lt;TreeNode *&gt; s;
+        TreeNode *curr = r;
+
+        while (curr != NULL || s.empty() == false)
+        {
+            /* Reach the left most Node of the
+               curr Node */
+            while (curr != NULL)
+            {
+                /* place pointer to a tree node on
+                   the stack before traversing
+                  the node's left subtree */
+                s.push(curr);
+                curr = curr-&gt;left;
+            }
+
+            /* Current must be NULL at this point */
+            curr = s.top();
+            s.pop();
+
+            cout &lt;&lt; curr-&gt;value &lt;&lt; " ";
+
+            /* we have visited the node and its
+               left subtree.  Now, it's right
+               subtree's turn */
+            curr = curr-&gt;right;
+
+        } /* end of while */
+    }
+    void preorderstack(TreeNode *r)
+    {
+        if (r == NULL)
+            return;
+
+        stack&lt;TreeNode *&gt; st;
+
+        // start from root node (set current node to root node)
+        TreeNode *curr = r;
+
+        // run till stack is not empty or current is
+        // not NULL
+        while (!st.empty() || curr != NULL)
+        {
+            // Print left children while exist
+            // and keep pushing right into the
+            // stack.
+            while (curr != NULL)
+            {
+                cout &lt;&lt; curr-&gt;value &lt;&lt; " ";
+
+                if (curr-&gt;right)
+                    st.push(curr-&gt;right);
+
+                curr = curr-&gt;left;
+            }
+
+            // We reach when curr is NULL, so We
+            // take out a right child from stack
+            if (st.empty() == false)
+            {
+                curr = st.top();
+                st.pop();
+            }
+        }
+    }
+    void postOrderStack(TreeNode *root)
+    {
+        if (root == NULL)
+            return;
+
+        // Create two stacks
+        stack&lt;TreeNode *&gt; s1, s2;
+
+        // push root to first stack
+        s1.push(root);
+        TreeNode *node;
+
+        // Run while first stack is not empty
+        while (!s1.empty())
+        {
+            // Pop an item from s1 and push it to s2
+            node = s1.top();
+            s1.pop();
+            s2.push(node);
+
+            // Push left and right children
+            // of removed item to s1
+            if (node-&gt;left)
+                s1.push(node-&gt;left);
+            if (node-&gt;right)
+                s1.push(node-&gt;right);
+        }
+
+        // Print all elements of second stack
+        while (!s2.empty())
+        {
+            node = s2.top();
+            s2.pop();
+            cout &lt;&lt; node-&gt;value &lt;&lt; " ";
+        }
+    }
+    void printInorder(TreeNode *r) // (Left, current node, Right)
+    {
+        if (r == NULL)
+            return;
+        /* first recur on left child */
+        printInorder(r-&gt;left);
+        /* then print the data of node */
+        cout &lt;&lt; r-&gt;value &lt;&lt; " ";
+        /* now recur on right child */
+        printInorder(r-&gt;right);
+    }
+    void printPostorder(TreeNode *r) //(Left, Right, Root)
+    {
+        if (r == NULL)
+            return;
+        // first recur on left subtree
+        printPostorder(r-&gt;left);
+        // then recur on right subtree
+        printPostorder(r-&gt;right);
+        // now deal with the node
+        cout &lt;&lt; r-&gt;value &lt;&lt; " ";
+    }
+    TreeNode *iterativeSearch(int v)
+    {
+        if (root == NULL)
+        {
+            return root;
+        }
+        else
+        {
+            TreeNode *temp = root;
+            while (temp != NULL)
+            {
+                if (v == temp-&gt;value)
+                {
+                    return temp;
+                }
+                else if (v &lt; temp-&gt;value)
+                {
+                    temp = temp-&gt;left;
+                }
+                else
+                {
+                    temp = temp-&gt;right;
+                }
+            }
+            return NULL;
+        }
+    }
+    TreeNode *recursiveSearch(TreeNode *r, int val)
+    {
+        if (r == NULL || r-&gt;value == val)
+            return r;
+        else if (val &lt; r-&gt;value)
+            return recursiveSearch(r-&gt;left, val);
+        else
+            return recursiveSearch(r-&gt;right, val);
+    }
+    int height(TreeNode *r)
+    {
+        if (r == NULL)
+            return -1;
+        else
+        {
+            /* compute the height of each subtree */
+            int lheight = height(r-&gt;left);
+            int rheight = height(r-&gt;right);
+            /* use the larger one */
+            if (lheight &gt; rheight)
+                return (lheight + 1);
+            else
+                return (rheight + 1);
+        }
+    }
+    /* Print nodes at a given level */
+    void printGivenLevel(TreeNode *r, int level)
+    {
+        if (r == NULL)
+            return;
+        else if (level == 0)
+            cout &lt;&lt; r-&gt;value &lt;&lt; " ";
+        else // level &gt; 0
+        {
+            printGivenLevel(r-&gt;left, level - 1);
+            printGivenLevel(r-&gt;right, level - 1);
+        }
+    }
+    void printLevelOrderBFS(TreeNode *r)
+    {
+        int h = height(r);
+        for (int i = 0; i &lt;= h; i++)
+            printGivenLevel(r, i);
+    }
+    TreeNode *minValueNode(TreeNode *node)
+    {
+        TreeNode *current = node;
+        /* loop down to find the leftmost leaf */
+        while (current-&gt;left != NULL)
+        {
+            current = current-&gt;left;
+        }
+        return current;
+    }
+    TreeNode *deleteNode(TreeNode *r, int v)
+    {
+        // base case
+        if (r == NULL)
+        {
+            return NULL;
+        }
+        // If the key to be deleted is smaller than the root's key,
+        // then it lies in left subtree
+        else if (v &lt; r-&gt;value)
+        {
+            r-&gt;left = deleteNode(r-&gt;left, v);
+        }
+        // If the key to be deleted is greater than the root's key,
+        // then it lies in right subtree
+        else if (v &gt; r-&gt;value)
+        {
+            r-&gt;right = deleteNode(r-&gt;right, v);
+        }
+        // if key is same as root's key, then This is the node to be deleted
+        else
+        {
+            // node with only one child or no child
+            if (r-&gt;left == NULL)
+            {
+                TreeNode *temp = r-&gt;right;
+                delete r;
+                return temp;
+            }
+            else if (r-&gt;right == NULL)
+            {
+                TreeNode *temp = r-&gt;left;
+                delete r;
+                return temp;
+            }
+            else
+            {
+                // node with two children: Get the inorder successor (smallest
+                // in the right subtree)
+                TreeNode *temp = minValueNode(r-&gt;right);
+                // Copy the inorder successor's content to this node
+                r-&gt;value = temp-&gt;value;
+                // Delete the inorder successor
+                r-&gt;right = deleteNode(r-&gt;right, temp-&gt;value);
+                // deleteNode(r-&gt;right, temp-&gt;value);
+            }
+        }
+        return r;
+    }
+};
+int main()
+{
+    BST obj;
+    int option, val;
+    do
+    {
+        cout &lt;&lt; "What operation do you want to perform? " &lt;&lt; '\n'
+             &lt;&lt; "Select Option number accordingly." &lt;&lt; '\n';
+        cout &lt;&lt; "1. Insert Node" &lt;&lt; '\n';
+        cout &lt;&lt; "2. Search Node" &lt;&lt; '\n';
+        cout &lt;&lt; "3. Delete Node" &lt;&lt; '\n';
+        cout &lt;&lt; "4. Traversal BST values through Recursion" &lt;&lt; '\n';
+        cout &lt;&lt; "5. Print Height of the Tree" &lt;&lt; '\n';
+        cout &lt;&lt; "6. Traversal BST values through Non Reacursive approach" &lt;&lt; '\n';
+        cout &lt;&lt; "7. Clear Screen" &lt;&lt; '\n';
+        cout &lt;&lt; "0. Exit Program" &lt;&lt; '\n';
+        cin &gt;&gt; option;
+        // Node n1;
+        TreeNode *new_node = new TreeNode();
+        switch (option)
+        {
+        case 0:
+            break;
+        case 1:
+            cout &lt;&lt; "INSERT" &lt;&lt; '\n';
+            cout &lt;&lt; "Enter VALUE of TREE NODE to INSERT in BST: ";
+            cin &gt;&gt; val;
+            new_node-&gt;value = val;
+            // obj.root= obj.insertRecursive(obj.root,new_node);
+            obj.insertNode(new_node);
+            cout &lt;&lt; '\n';
+            break;
+        case 2:
+            cout &lt;&lt; "SEARCH" &lt;&lt; '\n';
+            cout &lt;&lt; "Enter VALUE of TREE NODE to SEARCH in BST: ";
+            cin &gt;&gt; val;
+            // new_node = obj.iterativeSearch(val);
+            new_node = obj.recursiveSearch(obj.root, val);
+            if (new_node != NULL)
+            {
+                cout &lt;&lt; "Value found" &lt;&lt; '\n';
+            }
+            else
+            {
+                cout &lt;&lt; "Value NOT found" &lt;&lt; '\n';
+            }
+            break;
+        case 3:
+            cout &lt;&lt; "DELETE" &lt;&lt; '\n';
+            cout &lt;&lt; "Enter VALUE of TREE NODE to DELETE in BST: ";
+            cin &gt;&gt; val;
+            new_node = obj.iterativeSearch(val);
+            if (new_node != NULL)
+            {
+                obj.deleteNode(obj.root, val);
+                cout &lt;&lt; "Value Deleted" &lt;&lt; '\n';
+            }
+            else
+            {
+                cout &lt;&lt; "Value NOT found" &lt;&lt; '\n';
+            }
+            break;
+        case 4:
+            cout &lt;&lt; "2D PRINT: " &lt;&lt; '\n';
+            obj.print2D(obj.root, 5);
+            cout &lt;&lt; '\n';
+            cout &lt;&lt; "Print Level Order BFS: \n";
+            obj.printLevelOrderBFS(obj.root);
+            cout &lt;&lt; '\n';
+            cout &lt;&lt; "PRE-ORDER: ";
+            obj.printPreorder(obj.root);
+            cout &lt;&lt; '\n';
+            cout &lt;&lt; "IN-ORDER: ";
+            obj.printInorder(obj.root);
+            cout &lt;&lt; '\n';
+            cout &lt;&lt; "POST-ORDER: ";
+            obj.printPostorder(obj.root);
+            cout &lt;&lt; '\n';
+            break;
+        case 5:
+            cout &lt;&lt; "TREE HEIGHT" &lt;&lt; '\n';
+            cout &lt;&lt; "Height : " &lt;&lt; obj.height(obj.root) &lt;&lt; '\n';
+            break;
+        case 6:
+            cout &lt;&lt; "PRE-ORDER: ";
+            obj.preorderstack(obj.root);
+            cout &lt;&lt; '\n';
+            cout &lt;&lt; "IN-ORDER: ";
+            obj.inOrder(obj.root);
+            cout &lt;&lt; '\n';
+            cout &lt;&lt; "POST-ORDER: ";
+            obj.printPostorder(obj.root);
+            cout &lt;&lt; '\n';
+            cout &lt;&lt; '\n';
+            break;
+        case 7:
+            system("cls");
+            break;
+        default:
+            cout &lt;&lt; "Enter Proper Option number " &lt;&lt; '\n';
+        }
+    } while (option != 0);
+    return 0;
+}
+        </code>
+
+
+    </pre><hr>
+    <h2>Graphs and Hashing
+        A. Implement BFS and DFS algorithm- Graph
+B. Implement Linear probing in Hashing
+
+        </h2>
+    <pre class='brush: cpp'>
+       <code>
+        #include &lt;iostream&gt;
+        #include &lt;cstdio&gt;
+        #include &lt;cstdlib&gt;
+        #include &lt;conio.h&gt;
+        #include &lt;list&gt;
+        
+        using namespace std;
+        
+        const int TABLE_SIZE = 10;
+        
+        int a[20][20], reach[20], n;
+        
+        class HashNode
+        {
+            public:
+                int key;
+                int value;
+                HashNode(int key, int value)
+                {
+                    this-&gt;key = key;
+                    this-&gt;value = value;
+                }
+        };
+         
+        /*
+         * DeletedNode Class Declaration
+         */
+        class DeletedNode:public HashNode
+        {
+            private:
+                static DeletedNode *entry;
+                DeletedNode():HashNode(-1, -1)
+                {}
+            public:
+                static DeletedNode *getNode()
+                {
+                    if (entry == NULL)
+                        entry = new DeletedNode();
+                    return entry;
+                }
+        };
+        DeletedNode *DeletedNode::entry = NULL;
+        /*
+         * HashMap Class Declaration
+         */
+        class HashMap
+        {
+            private:
+                HashNode **htable;
+            public:
+                HashMap()
+                {
+                    htable = new HashNode* [TABLE_SIZE];
+                    for (int i = 0; i &lt; TABLE_SIZE; i++)
+                    {
+                        htable[i] = NULL;
+                    }
+                }
+                //  Destructors are usually used to deallocate memory and do other cleanup for a class object and its class members when the object is destroyed. A destructor is called for a class object when that object passes out of scope or is explicitly deleted.
+                ~HashMap()
+                {
+                    for (int i = 0; i &lt; TABLE_SIZE; i++)
+                    {
+                        if (htable[i] != NULL && htable[i] != DeletedNode::getNode())
+                            delete htable[i];
+                    }
+                    delete[] htable;
+                }
+                /*
+                 * Hash Function
+                 */
+                int HashFunc(int key)
+                {
+                    return key % TABLE_SIZE;
+                }
+                /*
+                 * Insert Element at a key
+                 */
+                void Insert(int key, int value)
+                {
+                    int hash_val = HashFunc(key);
+                    int init = -1;
+                    int deletedindex = -1;
+                    while (hash_val != init && (htable[hash_val]
+                                    == DeletedNode::getNode() || htable[hash_val]
+                                    != NULL && htable[hash_val]-&gt;key != key))
+                    {
+                        if (init == -1)
+                            init = hash_val;
+                        if (htable[hash_val] == DeletedNode::getNode())
+                            deletedindex = hash_val;
+                        hash_val = HashFunc(hash_val + 1);
+                    }
+                    if (htable[hash_val] == NULL || hash_val == init)
+                    {
+                        if(deletedindex != -1)
+                            htable[deletedindex] = new HashNode(key, value);
+                        else
+                            htable[hash_val] = new HashNode(key, value);
+                    }
+                    if(init != hash_val)
+                    {
+                        if (htable[hash_val] != DeletedNode::getNode())
+                        {
+                            if (htable[hash_val] != NULL)
+                            {
+                                if (htable[hash_val]-&gt;key == key)
+                                    htable[hash_val]-&gt;value = value;
+                            }
+                        }
+                        else
+                            htable[hash_val] = new HashNode(key, value);
+                    }
+                }
+                /*
+                 * Search Element at a key
+                 */
+                int Search(int key)
+                {
+                    int hash_val = HashFunc(key);
+                    int init = -1;
+                    while (hash_val != init && (htable[hash_val]
+                                    == DeletedNode::getNode() || htable[hash_val]
+                                    != NULL && htable[hash_val]-&gt;key != key))
+                    {
+                        if (init == -1)
+                            init = hash_val;
+                        hash_val = HashFunc(hash_val + 1);
+                    }
+                    if (htable[hash_val] == NULL || hash_val == init)
+                        return -1;
+                    else
+                        return htable[hash_val]-&gt;value;
+                }
+                /*
+                 * Remove Element at a key
+                 */
+                void Remove(int key)
+                {
+                    int hash_val = HashFunc(key);
+                    int init = -1;
+                    while (hash_val != init && (htable[hash_val]
+                                    == DeletedNode::getNode() || htable[hash_val]
+                                    != NULL && htable[hash_val]-&gt;key != key))
+                    {
+                        if (init == -1)
+                            init = hash_val;
+                        hash_val = HashFunc(hash_val + 1);
+                    }
+                    if (hash_val != init && htable[hash_val] != NULL)
+                    {
+                        delete htable[hash_val];
+                        htable[hash_val] = DeletedNode::getNode();
+                    }
+                }
+        };
+        
+        class Graph {
+          int numVertices;
+          list&lt;int&gt;* adjLists;
+          bool* visited;
+        
+           public:
+          Graph(int vertices);
+          void addEdge(int src, int dest);
+          void BFS(int startVertex);
+        };
+        
+        // Create a graph with given vertices,
+        // and maintain an adjacency list
+        Graph::Graph(int vertices) {
+          numVertices = vertices;
+          adjLists = new list&lt;int&gt;[vertices];
+        }
+        
+        // Add edges to the graph
+        void Graph::addEdge(int src, int dest) {
+          adjLists[src].push_back(dest);
+          adjLists[dest].push_back(src);
+        }
+        
+        // BFS algorithm
+        void Graph::BFS(int startVertex) {
+          visited = new bool[numVertices];
+          for (int i = 0; i &lt; numVertices; i++)
+            visited[i] = false;
+        
+          list&lt;int&gt; queue;
+        
+          visited[startVertex] = true;
+          queue.push_back(startVertex);
+        
+          list&lt;int&gt;::iterator i;
+        
+          while (!queue.empty()) {
+            int currVertex = queue.front();
+            cout &lt;&lt; "Visited " &lt;&lt; currVertex &lt;&lt; " ";
+            queue.pop_front();
+        
+            for (i = adjLists[currVertex].begin(); i != adjLists[currVertex].end(); ++i) {
+              int adjVertex = *i;
+              if (!visited[adjVertex]) {
+                visited[adjVertex] = true;
+                queue.push_back(adjVertex);
+              }
+            }
+          }
+        }
+        
+        void dfs(int v)
+        {
+            int i;
+            reach[v] = 1;
+            for (i = 1; i &lt;= n; i++)
+                if (a[v][i] && !reach[i])
+                {
+                    printf("\n %d-&gt;%d", v, i);
+                    dfs(i);
+                }
+        }
+        
+        void dfsfunction()
+        {
+            int i, j, count = 0;
+            printf("\n Enter number of vertices:");
+            scanf("%d", &n);
+            for (i = 1; i &lt;= n; i++)
+            {
+                reach[i] = 0;
+                for (j = 1; j &lt;= n; j++)
+                    a[i][j] = 0;
+            }
+            printf("\n Enter the adjacency matrix:\n");
+            for (i = 1; i &lt;= n; i++)
+                for (j = 1; j &lt;= n; j++)
+                    scanf("%d", &a[i][j]);
+            dfs(1);
+            printf("\n");
+            for (i = 1; i &lt;= n; i++)
+            {
+                if (reach[i])
+                    count++;
+            }
+            if (count == n)
+                printf("\n Graph is connected");
+            else
+                printf("\n Graph is not connected");
+            getch();
+        }
+        void bfsfunction()
+        {
+        int no;
+        cout &lt;&lt; "\n Enter the no of vertices\n";
+            cin &gt;&gt; no;
+        
+            Graph g(no);
+            int nedge;
+            cout &lt;&lt; "\n Enter the no of edges you want to add\n";
+            cin &gt;&gt; nedge;
+            for(int i = 0;i&lt;nedge;i++)
+            {
+                int a,b;
+                cout &lt;&lt; "\n Enter the Vertices for the edges\n";
+            cin &gt;&gt; a&gt;&gt;b;
+                 g.addEdge(a, b);
+            }
+          
+        
+        int start;
+        cout &lt;&lt; "\n Enter the starting vertex \n";
+            cin &gt;&gt; start;
+        
+          g.BFS(start);
+        
+        }
+        int linearprobing()
+        {
+        HashMap hash;
+            int key, value;
+            
+            int choice;
+            while(1)
+            {
+                cout&lt;&lt;"\n----------------------"&lt;&lt;endl;
+                cout&lt;&lt;"Operations on Hash Table"&lt;&lt;endl;
+                cout&lt;&lt;"\n----------------------"&lt;&lt;endl;
+                cout&lt;&lt;"1.Insert element into the table"&lt;&lt;endl;
+                cout&lt;&lt;"2.Search element from the key"&lt;&lt;endl;
+                cout&lt;&lt;"3.Delete element at a key"&lt;&lt;endl;
+                cout&lt;&lt;"4.Exit"&lt;&lt;endl;
+                cout&lt;&lt;"Enter your choice: ";
+                cin&gt;&gt;choice;
+                switch(choice)
+                {
+                case 1:
+                    cout&lt;&lt;"Enter element to be inserted: ";
+                    cin&gt;&gt;value;
+                    cout&lt;&lt;"Enter key at which element to be inserted: ";
+                    cin&gt;&gt;key;
+                    hash.Insert(key, value);
+                    break;
+                case 2:
+                    cout&lt;&lt;"Enter key of the element to be searched: ";
+                    cin&gt;&gt;key;
+                    if(hash.Search(key) == -1)
+                    {
+                        cout&lt;&lt;"No element found at key "&lt;&lt;key&lt;&lt;endl;
+                        continue;
+                    }
+                    else
+                    {
+                        cout&lt;&lt;"Element at key "&lt;&lt;key&lt;&lt;" : ";
+                        cout&lt;&lt;hash.Search(key)&lt;&lt;endl;
+                    }
+                    break;
+                case 3:
+                    cout&lt;&lt;"Enter key of the element to be deleted: ";
+                    cin&gt;&gt;key;
+                    hash.Remove(key);
+                    break;
+                case 4:
+                    return 0;
+                default:
+                   cout&lt;&lt;"\nEnter correct option\n";
+               }
+            }
+        
+        return 0;
+        }
+        
+        int main()
+        {
+        
+            int choice;
+        
+            do{
+        
+            cout &lt;&lt; "\n Menu \n 1.Linear Probing \n 2.BFS \n 3.DFS \n 4.Exit \n";
+            cin &gt;&gt; choice;
+        
+            switch (choice)
+            {
+            case 1:
+                linearprobing();
+                break;
+            case 2:
+                bfsfunction();
+                break;
+            case 3:
+                dfsfunction();
+                break;
+            case 4:
+                cout &lt;&lt; "\n Thank you for using the program  \n";
+                break;
+        
+            default:
+                cout &lt;&lt; "\n Invalid Choice \n";
+                break;
+            }
+            }while(choice != 4);
+        
+            return 0;
+        }
+      
+       </code>  
+            
+    </pre><hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <h1> All Second Approachs
+        <hr>
+    <hr>
+    <hr><hr>
+    <hr>
+    <hr><hr>
+    <hr>
+    <hr><hr>
+    <hr>
+    <hr>
+
+    </h1>
+    <h2> Graphs and Hashing Second approach
+        
+
+        </h2>
+    <pre class='brush: cpp'>
+       <code>
+            // Implementation of BFS and DFS algorithm for graph using C.
+
+#include&lt;stdio.h&gt;
+
+int q[20],top=-1,front=-1,rear=-1,a[20][20],vis[20],stack[20];
+int delete();
+
+void add(int item);
+void bfs(int s,int n);
+void dfs(int s,int n);
+void push(int item);
+int pop();
+
+void main()
+{
+int n,i,s,ch,j;
+char c,temp;
+printf("\nEnter The total Number of Vertices : ");
+scanf("%d",&n);
+for(i=1;i&lt;=n;i++)
+{
+for(j=1;j&lt;=n;j++)
+{
+printf("\nPress 1 if %d Has a Node with %d Else press 0 :",i,j);
+scanf("%d",&a[i][j]);
+}
+}
+printf("\nTHE Adjacency matrix generated is :\n");
+for(i=1;i&lt;=n;i++)
+{
+for(j=1;j&lt;=n;j++)
+{
+printf(" %d",a[i][j]);
+}
+printf("\n");
+}
+
+do
+{
+for(i=1;i&lt;=n;i++)
+vis[i]=0;
+printf("\nMENU :");
+printf("\n1.B.F.S (Breadth First Search)");
+printf("\n2.D.F.S(Depth First Search)");
+printf("\nEnter your choice which operation you wanna perform  :");
+scanf("%d",&ch);
+printf("\nEnter THE source(Initial) vertex :");
+scanf("%d",&s);
+
+switch(ch)
+{
+case 1:bfs(s,n);
+break;
+case 2:
+dfs(s,n);
+break;
+}
+printf("\n\nDo you want to Continue(Y/N) ? ");
+scanf("%c",&temp);
+scanf("%c",&c);
+}while((c=='y')||(c=='Y'));
+}
+
+void bfs(int s,int n)
+{
+int p,i;
+add(s);
+vis[s]=1;
+p=delete();
+if(p!=0)
+printf(" %d",p);
+while(p!=0)
+{
+for(i=1;i&lt;=n;i++)
+if((a[p][i]!=0)&&(vis[i]==0))
+{
+add(i);
+vis[i]=1;
+}
+p=delete();
+if(p!=0)
+printf(" %d ",p);
+}
+for(i=1;i&lt;=n;i++)
+if(vis[i]==0)
+bfs(i,n);
+}
+
+
+void add(int item)
+{
+if(rear==19)
+printf("\nQUEUE  is  FULL !");
+else
+{
+if(rear==-1)
+{
+q[++rear]=item;
+front++;
+}
+else
+q[++rear]=item;
+}
+}
+int delete()
+{
+int k;
+if((front&gt;rear)||(front==-1))
+return(0);
+else
+{
+k=q[front++];
+return(k);
+}
+}
+
+void dfs(int s,int n)
+{
+int i,k;
+push(s);
+vis[s]=1;
+k=pop();
+if(k!=0)
+printf(" %d ",k);
+while(k!=0)
+{
+for(i=1;i&lt;=n;i++)
+if((a[k][i]!=0)&&(vis[i]==0))
+{
+push(i);
+vis[i]=1;
+}
+k=pop();
+if(k!=0)
+printf(" %d ",k);
+}
+for(i=1;i&lt;=n;i++)
+if(vis[i]==0)
+dfs(i,n);
+}
+void push(int item)
+{
+if(top==19)
+printf("\nStack overflown ! ");
+else
+stack[++top]=item;
+}
+int pop()
+{
+int k;
+if(top==-1)
+return(0);
+else
+{
+k=stack[top--];
+return(k);
+}
+}
+
+
+
+        </code>
+    </pre>
+
+    <h2> Infix To Prefix Second approach
+         </h2>
+<pre class='brush: cpp'>
+   <code>
+    //Menu driven program for Implementation of balanced paranthesis,Infix to Postfix and solving Postfix expression USING STACK.
+    #include &lt;iostream&gt;
+    #include &lt;math.h&gt;
+    #include &lt;stack&gt;
+    using namespace std;
+    
+    
+    //Code for checking 'Balanced Paranthesis' in a given expression.
+    void bp()
+    {
+        stack&lt;char&gt; stk;
+        string exp;
+        cout &lt;&lt; "\nEnter the paranthesis expression : " &lt;&lt; endl;
+        cin &gt;&gt; exp;
+    
+        for (int i = 0; i &lt; exp.length(); i++)
+        {
+            if (stk.empty())
+            {
+                stk.push(exp[i]);
+            }
+    
+            else if ((stk.top() == '(' && exp[i] == ')') || (stk.top() == '[' && exp[i] == ']') || (stk.top() == '{' && exp[i] == '}'))
+            {
+                stk.pop();
+            }
+            else
+            {
+                stk.push(exp[i]);
+            }
+        }
+    
+        if (stk.empty())
+        {
+            cout &lt;&lt; "\nThe given expression has Balanced Paranthesis." &lt;&lt; endl;
+        }
+        else
+        {
+            cout &lt;&lt; "\nThe given expression has non-balanced Paranthesis." &lt;&lt; endl;
+        }
+    }
+    
+    int precedence(char a)
+    {
+        {
+            if (a == '^')
+                return 3;
+    
+            else if (a == '/' || a == '*')
+                return 2;
+    
+            else if (a == '+' || a == '-')
+                return 1;
+    
+            else
+                return -1;
+        }
+    }
+    
+    //Code for conversion of an 'Infix expression to Postfix expression.'
+    int infixtopostfix()
+    {
+        string exp;
+        cout&lt;&lt;"\nEnter an expression you want : "&lt;&lt;endl;
+        cin&gt;&gt;exp;
+        stack&lt;char&gt; stk; 
+        string postfix;
+    
+        for (int i = 0; i &lt; exp.length(); i++) {
+            char a = exp[i];
+            if ((a &gt;= 'a' && a &lt;= 'z') || (a &gt;= 'A' && a &lt;= 'Z')
+                || (a &gt;= '0' && a &lt;= '9'))
+                postfix += a;
+    
+            else if (a == '(')
+                stk.push('(');
+    
+            else if (a == ')') {
+                while (stk.top() != '(') {
+    
+                    postfix += stk.top();
+    
+                    stk.pop();
+    
+                }
+                stk.pop();
+            }
+    
+               else {
+                while (!stk.empty()
+    
+                       && precedence(exp[i]) &lt;= precedence(stk.top())) {
+    
+                    if (a == '^' && stk.top() != '^')
+    
+                        break;
+    
+                    else {
+    
+                    postfix += stk.top();
+    
+                        stk.pop();
+    
+                    }
+                }
+                stk.push(a);
+            }
+        }
+    
+        while (!stk.empty()) {
+            postfix += stk.top();
+            stk.pop();
+    
+        }
+    
+        cout&lt;&lt;"\nRequired postfix expression will be: "&lt;&lt;endl;
+        cout &lt;&lt; postfix &lt;&lt; endl;
+    
+        return 0;
+    
+    }
+    
+    float scanNum(char ch) {
+       int value;
+       value = ch;
+       return float(value-'0'); 
+    }
+    
+    int isOperator(char ch) {
+        if(ch == '+'|| ch == '-'|| ch == '*'|| ch == '/' || ch == '^')
+            return 1;  
+        else
+            return -1;  
+    }
+    
+    int isOperand(char ch) {
+    
+        if(ch &gt;= '0' && ch &lt;= '9')
+            return 1;    
+        else
+            return -1;   
+    }
+    
+    float operation(int a, int b, char op) {
+    
+       if(op == '+')
+          return b+a;
+    
+       else if(op == '-')
+          return b-a;
+    
+       else if(op == '*')
+          return b*a;
+    
+       else if(op == '/')
+          return b/a;
+    
+       else if(op == '^')
+          return pow(b,a);    
+    
+       else
+          return 0; 
+    }
+    
+    //Code for Solving a 'Postfix' Expression(input given by user).
+    int solvepostfix()
+    {
+        string exp;
+        cout&lt;&lt;"\nEnter a postfix expression you want : "&lt;&lt;endl;
+        cin&gt;&gt;exp;
+    
+        int a,b;
+        stack&lt;float&gt; stk;
+        string::iterator it;
+    
+        for(it=exp.begin(); it!=exp.end(); it++) {
+          if(isOperator(*it) != -1) {
+             a = stk.top();
+             stk.pop();
+             b = stk.top();
+             stk.pop();
+             stk.push(operation(a, b, *it));
+          }
+          
+          else if(isOperand(*it) &gt; 0) {
+             stk.push(scanNum(*it));
+          }
+    
+        }
+       cout &lt;&lt; "\nThe final result is: "&lt;&lt;stk.top()&lt;&lt;"\n";
+       return 0;
+    }
+    
+    
+    int main()
+    {
+        cout &lt;&lt; "ADS Lab - Assignment 2 " &lt;&lt; endl;
+        cout &lt;&lt; "\n\t*Menu* " &lt;&lt; endl;
+    
+        int temp;                                             
+        do
+        {
+    
+            printf("\nEnter 1 for Checking Balanced Parenthesis");
+            printf("\nEnter 2 for Conversion of Infix to postfix");
+            printf("\nEnter 3 for Solving the Postfix expression");
+            printf("\nEnter 4 for exit");
+            printf("\n\nEnter any choice you want : ");
+            scanf("%d", &temp);
+    
+            switch (temp)
+            {
+            case 1:
+                bp();
+                break;
+            case 2:
+                infixtopostfix();
+                break;
+            case 3:
+                solvepostfix();
+                break;
+    
+            default:
+                break;
+            }
+    
+        } while (temp != 4);
+    
+        return 0;
+    }
+    
+    
+    
+    
+   </code></pre>
+    <h2> Circluar queue Second approach
+         </h2>
+<pre class='brush: cpp'>
+   <code>
+    // PROGRAM FOR IMPLEMENTATION OF A) CIRCULAR QUEUE, B) REVERSE STACK USING QUEUE.
+    #include&lt;bits/stdc++.h&gt;
+    using namespace std;
+    
+    void reverseStack(stack&lt;int&gt;&st){
+        queue&lt;int&gt;q;
+        while(!st.empty()){
+            q.push(st.top());
+            st.pop();
+        }
+        while(!q.empty()){
+            st.push(q.front());
+            q.pop();
+        }
+    }
+    
+    void printStack(stack&lt;int&gt;st)
+    {
+        while(!st.empty()){
+            cout&lt;&lt;st.top()&lt;&lt;" ";
+            st.pop();
+        }
+    }
+    
+    class CircularQueue{    
+        int *arr;
+        int size;
+        int rear;
+        int qfront;
+        
+        public:
+    
+        CircularQueue(int n){
+            
+            size = n;
+            arr = new int[size];
+            qfront = rear = -1;
+        }
+    
+        bool enQueue(int value){
+           
+           
+            if((qfront == 0 && rear ==(size-1)) || rear == (qfront-1)){ // queue is full
+                return false;
+            }
+            
+            else if(rear == -1 ){ 
+                qfront = rear = 0;
+            }
+            else if(qfront !=0 && rear == (size-1)){ 
+                rear = 0;
+            }
+            else{ 
+                rear++;
+            }
+           
+            arr[rear]=value;
+            return true;
+         
+        }
+        
+        bool isFull(){
+            if(qfront == 0 && rear == size-1 || rear == qfront-1){
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+    
+        bool isEmpty(){
+            if(qfront == -1 || rear ==-1){
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+        int dequeue(){
+           
+            
+            if(qfront == -1) {
+                return -1;             
+            }
+           int ans = arr[qfront] ;
+            arr[qfront] = -1;
+            
+            if(qfront == rear){ 
+                qfront=rear=-1;
+            }
+            else if(qfront == (size-1)){
+                qfront = 0; 
+            }
+            else{ 
+                qfront++;
+            }
+            return ans;
+        
+        }
+        void displayQueue()
+            {
+        if (qfront == -1)
+        {
+            printf("\nQueue is Empty");
+            return;
+        }
+        printf("\n\nElements in the Circular Queue are: ");
+        if (rear &gt;= qfront)
+        {
+            for (int i = qfront; i &lt;= rear; i++)
+                cout&lt;&lt;" "&lt;&lt;arr[i];
+            
+        }
+        else
+        {
+            for (int i = qfront; i &lt; size; i++)
+                cout&lt;&lt;" "&lt;&lt;arr[i];
+     
+            for (int i = 0; i &lt;= rear; i++)
+                cout&lt;&lt;" "&lt;&lt;arr[i];
+        }
+    }
+    };
+    
+    void circularQueue(){
+        cout&lt;&lt;"\n\nEnter the size of Circular Queue  : ";
+        int sizee;
+        cin&gt;&gt;sizee;
+        CircularQueue q(sizee);
+    
+    //For Insertion of elements in Circular Queue.
+    int opt,n;
+    char anotherOper = 'y';
+    while(anotherOper == 'y'){
+        cout&lt;&lt;"\nChoose your option : \n";
+        cout&lt;&lt;"\t\n1.Insert Element in Circular Queue";
+        cout&lt;&lt;"\t\n2.Delete Element in Circular Queue";
+        cout&lt;&lt;"\t\n3.Check Queue is full or not.\n";
+        cout&lt;&lt;"\t\n4.Check Queue is empty or not.\n";
+        cout&lt;&lt;"\t\n5.Display Queue.\n";
+        cout&lt;&lt;"\n\nYour Option is : \t";
+        cin&gt;&gt;opt;
+        
+    switch(opt){
+        case 1 :  cout&lt;&lt;"\nEnter the number of elements that you want to insert into Queue: ";
+                   cin&gt;&gt;n;
+                    cout&lt;&lt;"\nEnter the elements: \n";
+                    for(int i=0;i&lt;n;i++){
+                        int d;cin&gt;&gt;d;
+                        q.enQueue(d);
+                    }
+                    break;
+        case 3 : if(q.isFull()){
+                    cout&lt;&lt;"Queue is Full.\n";
+                    }else{
+                        cout&lt;&lt;"Queue is Not Full\n";
+                    }
+                    break;
+                    
+        case 4 : if(q.isEmpty()){
+                    cout&lt;&lt;"Queue is empty.\n";
+                    }else{
+                        cout&lt;&lt;"Queue is Not empty\n";
+                    } 
+                    break;
+                    
+        case 5 : q.displayQueue();
+                break;
+        
+        case 2 : cout&lt;&lt;"\nEnter the number of elements that you want to Delete from Queue: ";
+                  cin&gt;&gt;n;
+                    
+                    for(int i=0;i&lt;n;i++){
+                        cout&lt;&lt;"\nDeleted value = "&lt;&lt;q.dequeue();
+                    } 
+                    break;
+                    
+        default : cout&lt;&lt;"Please Select a Correct Option.\n";
+                    break;
+    }
+        cout&lt;&lt;"\n\nDo you want to perform another opertaion on queue ? [yes[y]/no[n]] : " ;
+        cin&gt;&gt;anotherOper;
+    }
+        
+    }
+    
+    int main(){
+        int opt;
+        char ch = 'y';
+        
+        while(ch=='y'){
+     
+        cout&lt;&lt;"\nChoose Option :\n";
+        cout&lt;&lt;"\t\n1.Implementation of Circular Queue";
+        cout&lt;&lt;"\t\n2.Reverse Stack using Queue";
+        cout&lt;&lt;"\t\n3.Exit\n";
+    
+        cout&lt;&lt;"\n\nYour Option is:\t";
+        cin&gt;&gt;opt;
+    
+        stack&lt;int&gt;st;
+        int n;
+    
+        switch(opt){
+    
+            case 1 : cout&lt;&lt;"\n\n** Implementation of 'Circular Queue'";
+                    cout&lt;&lt;"\n";
+                    circularQueue();
+                    break;
+    
+            case 2 : cout&lt;&lt;"\n\n** Reverse Stack using Queue **"&lt;&lt;endl;
+                    cout&lt;&lt;"\nEnter the number of elements that you want to push into Stack: ";
+                    cin&gt;&gt;n;
+                    cout&lt;&lt;"\nEnter the elements : \n";
+                    for(int i=0;i&lt;n;i++){
+                        int d;cin&gt;&gt;d;
+                        st.push(d);
+                    }
+                    cout&lt;&lt;"\n\nInput :\t";
+                    printStack(st);
+                    cout&lt;&lt;endl;
+                    reverseStack(st);
+                    cout&lt;&lt;"\n\nOutput :\t";
+                    printStack(st);
+                    cout&lt;&lt;endl;
+                    break;
+    
+            case 3 : exit(1);
+                    break;
+    
+                
+            default : cout&lt;&lt;"\nSelect Correct option\n";  
+                        break;
+    
+    
+        }
+        cout&lt;&lt;"\n\nDo you want to perform another opertaion on queue ? [yes[y]/no[n]] : " ;
+        cin&gt;&gt;ch;
+    }
+    }
+    
+    
+   </code></pre>
+    <h2> Singly linked list Second approach
+         </h2>
+<pre class='brush: cpp'>
+   <code>
+    // PROGRAM FOR IMPLEMENTATION OF SINGLY LINKED LIST IN C WITH ALL THE FUNCTIONS.
+    #include&lt;stdio.h&gt;
+    #include&lt;stdlib.h&gt;
+    
+    struct node
+    {
+        int data;
+        struct node *next;
+    };
+    struct node *head;
+    
+    void beginsert ();
+    void lastinsert ();
+    void randominsert();
+    void begin_delete();
+    void last_delete();
+    void random_delete();
+    void display();
+    void search();
+    int main ()
+    {
+        int choice =0;
+        while(choice != 9)
+        {
+            printf("\nMENU :\n");
+            printf("\nEnter 1 to insert in the beginning");
+            printf("\nEnter 2 to insert at the last");
+            printf("\nEnter 3 to insert at any random location");
+            printf("\nEnter 4 to delete from the beginning");
+            printf("\nEnter 5 to delete from the last");
+            printf("\nEnter 6 to delete a node from the specified location");
+            printf("\nEnter 7 to search for an element");
+            printf("\nEnter 8 to display the elements");
+            printf("\nEnter 9 to exit");
+            printf("\n\nEnter your choice :\t");
+            scanf("\n%d",&choice);
+            switch(choice)
+            {
+                case 1:
+                beginsert();
+                break;
+                case 2:
+                lastinsert();
+                break;
+                case 3:
+                randominsert();
+                break;
+                case 4:
+                begin_delete();
+                break;
+                case 5:
+                last_delete();
+                break;
+                case 6:
+                random_delete();
+                break;
+                case 7:
+                search();
+                break;
+                case 8:
+                display();
+                break;
+                case 9:
+                exit(0);
+                break;
+                default:
+                printf("Please enter a valid choice.....");
+            }
+        }
+    }
+    void beginsert()
+    {
+        struct node *ptr;
+        int item;
+        ptr = (struct node *) malloc(sizeof(struct node *));
+        if(ptr == NULL)
+        {
+            printf("\nOVERFLOW");
+        }
+        else
+        {
+            printf("\nEnter an Element :\t");
+            scanf("%d",&item);
+            ptr-&gt;data = item;
+            ptr-&gt;next = head;
+            head = ptr;
+            printf("\nNode inserted");
+        }
+    
+    }
+    void lastinsert()
+    {
+        struct node *ptr,*temp;
+        int item;
+        ptr = (struct node*)malloc(sizeof(struct node));
+        if(ptr == NULL)
+        {
+            printf("\nOVERFLOW");
+        }
+        else
+        {
+            printf("\nEnter an Element :\t");
+            scanf("%d",&item);
+            ptr-&gt;data = item;
+            if(head == NULL)
+            {
+                ptr -&gt; next = NULL;
+                head = ptr;
+                printf("\nNode inserted");
+            }
+            else
+            {
+                temp = head;
+                while (temp -&gt; next != NULL)
+                {
+                    temp = temp -&gt; next;
+                }
+                temp-&gt;next = ptr;
+                ptr-&gt;next = NULL;
+                printf("\nNode inserted");
+    
+            }
+        }
+    }
+    void randominsert()
+    {
+        int i,loc,item;
+        struct node *ptr, *temp;
+        ptr = (struct node *) malloc (sizeof(struct node));
+        if(ptr == NULL)
+        {
+            printf("\nOVERFLOW");
+        }
+        else
+        {
+            printf("\nEnter an Element :\t");
+            scanf("%d",&item);
+            ptr-&gt;data = item;
+            printf("\nEnter the location after which you want to insert:\t ");
+            scanf("\n%d",&loc);
+            temp=head;
+            for(i=0;i&lt;loc;i++)
+            {
+                temp = temp-&gt;next;
+                if(temp == NULL)
+                {
+                    printf("\nCannot be inserted\n");
+                    return;
+                }
+    
+            }
+            ptr -&gt;next = temp -&gt;next;
+            temp -&gt;next = ptr;
+            printf("\nNode inserted");
+        }
+    }
+    void begin_delete()
+    {
+        struct node *ptr;
+        if(head == NULL)
+        {
+            printf("\nList is empty\n");
+        }
+        else
+        {
+            ptr = head;
+            head = ptr-&gt;next;
+            free(ptr);
+            printf("\nNode deleted from the beginning(start)\n");
+        }
+    }
+    void last_delete()
+    {
+        struct node *ptr,*ptr1;
+        if(head == NULL)
+        {
+            printf("\nList is empty");
+        }
+        else if(head -&gt; next == NULL)
+        {
+            head = NULL;
+            free(head);
+            printf("\nOnly node of the list deleted\n");
+        }
+    
+        else
+        {
+            ptr = head;
+            while(ptr-&gt;next != NULL)
+            {
+                ptr1 = ptr;
+                ptr = ptr -&gt;next;
+            }
+            ptr1-&gt;next = NULL;
+            free(ptr);
+            printf("\nNode Deleted from the last\n");
+        }
+    }
+    void random_delete()
+    {
+        struct node *ptr,*ptr1;
+        int loc,i;
+        printf("\nEnter the location of the node after which you want to perform deletion :\t");
+        scanf("%d",&loc);
+        ptr=head;
+        for(i=0;i&lt;loc;i++)
+        {
+            ptr1 = ptr;
+            ptr = ptr-&gt;next;
+    
+            if(ptr == NULL)
+            {
+                printf("\nCan't delete");
+                return;
+            }
+        }
+        ptr1 -&gt;next = ptr -&gt;next;
+        free(ptr);
+        printf("\nDeleted node %d ",loc+1);
+    }
+    void search()
+    {
+        struct node *ptr;
+        int item,i=0,flag;
+        ptr = head;
+        if(ptr == NULL)
+        {
+            printf("\nEmpty List\n");
+        }
+        else
+        {
+            printf("\nEnter an Element which you want to search :\t");
+            scanf("%d",&item);
+            while (ptr!=NULL)
+            {
+                if(ptr-&gt;data == item)
+                {
+                    printf("Element found at location %d ",i+1);
+                    flag=0;
+                }
+                else
+                {
+                    flag=1;
+                }
+                i++;
+                ptr = ptr -&gt; next;
+            }
+            if(flag==1)
+            {
+                printf("Element not found\n");
+            }
+        }
+    
+    }
+    
+    void display()
+    {
+        struct node *ptr;
+        ptr = head;
+        if(ptr == NULL)
+        {
+            printf("Nothing to Display");
+        }
+        else
+        {
+            printf("\nPrinting the values :\n");
+            while (ptr!=NULL)
+            {
+                printf("\n%d",ptr-&gt;data);
+                ptr = ptr -&gt; next;
+            }
+        }
+    }
+    
+    
+    
+    
+    
+   </code></pre>
+    <h2> Linear Probing Second approach
+         </h2>
+<pre class='brush: cpp'>
+   <code>
+    // Implementation of Linear probing using Hashing in C.
+    #include &lt;stdio.h&gt;
+    #include&lt;stdlib.h&gt;
+    #define TABLE_SIZE 10
+    
+    int h[TABLE_SIZE]={NULL};
+    
+    void insert()
+    {
+    
+     int key,index,i,flag=0,hkey;
+     printf("\nEnter an Element you want to Push into Hash table :");
+     scanf("%d",&key);
+     hkey=key%TABLE_SIZE;
+     for(i=0;i&lt;TABLE_SIZE;i++)
+        {
+    
+         index=(hkey+i)%TABLE_SIZE;
+    
+         if(h[index] == NULL)
+         {
+            h[index]=key;
+             break;
+         }
+    
+        }
+    
+        if(i == TABLE_SIZE)
+    
+         printf("\nElement cannot be inserted\n");
+    }
+    void search()
+    {
+    
+     int key,index,i,flag=0,hkey;
+     printf("\nEnter an Element that you want to search :");
+     scanf("%d",&key);
+     hkey=key%TABLE_SIZE;
+     for(i=0;i&lt;TABLE_SIZE; i++)
+     {
+        index=(hkey+i)%TABLE_SIZE;
+        if(h[index]==key)
+        {
+          printf("\nValue is found at Index %d",index);
+          break;
+        }
+      }
+      if(i == TABLE_SIZE)
+        printf("\n Value is not found\n");
+    }
+    void display()
+    {
+    
+      int i;
+    
+      printf("\nElements which are Present in the Hash table are :");
+    
+      for(i=0;i&lt; TABLE_SIZE; i++)
+    
+      printf("\nAt Index %d \t value =  %d",i,h[i]);
+    
+    }
+    int main()
+    {
+        int opt,i;
+        while(1)
+        {
+            printf("\nWhich operation do you want to perform :");
+            printf("\nPress :\n\n'1' to Insert\n'2' to Display \n'3' to Search \n'4' to Exit. \n");
+            scanf("%d",&opt);
+            switch(opt)
+            {
+                case 1:
+                    insert();
+                    break;
+                case 2:
+                    display();
+                    break;
+                case 3:
+                    search();
+                    break;
+                case 4:exit(0);
+            }
+        }
+    }
+    
+    
+   </code></pre>
+    <script src="js/shCore.js"></script>
+  <script src="js/shBrushCpp.js"></script>
+  <script>
+    SyntaxHighlighter.all()
+  </script>
+</body>
+</html>
